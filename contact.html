@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from www.directdesign.it/demos/chateau/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Mar 2018 10:19:53 GMT -->
+<head>
+        <title>Contact</title>
+        
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta content="" name="description">
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+        <link rel="icon" type="image/png" href="images/icon.png" />
+        
+        <!-- css -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="src/css/font-awesome.css" rel="stylesheet">
+        <link href="src/css/animate.css" rel="stylesheet">
+        <link href="src/css/swipebox.css" rel="stylesheet">
+        <link href="src/css/swiper.min.css" rel="stylesheet">
+        <link href="src/css/winemaker-theme.css" rel="stylesheet">
+        <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+        <link href="src/css/style.css" rel="stylesheet">
+        
+        <!-- google fonts -->
+        <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Merriweather:300,400,700,900,900italic,700italic,400italic,300italic" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        
+		<!-- head js -->
+        <script src="src/js/modernizr-2.6.2.min.js"></script>
+        <style type="text/css">
+          @media (min-width:992px){
+            .page-header {
+                
+                padding: 185px 0 !important;
+                
+            }
+
+          }
+
+
+
+        </style>
+    </head>
+    
+    <body>
+    
+    	<aside id="side-nav">
+      
+        <div>
+
+        <form class="form-inline">
+          <div class="form-group has-feedback">
+            <!--<label for="search-field">Chercher un produit</label>-->
+            <input id="search-field" type="text" class="form-control" placeholder="Recherche...">
+            <button id="search-btn" type="submit" class="btn"><span class="fa fa-search"></span></button>
+          </div>
+        </form>
+
+        <!--<ul class="list-group">
+          <li class="list-group-item style-1 list-group-label">About</li>
+          <li class="list-group-item style-1"><a href="register.html">Register</a></li>
+          <li class="list-group-item style-1"><a href="login.html">Login</a></li>
+          <li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
+          <li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+        </ul>-->      
+            
+        <ul class="list-group">
+          <li class="list-group-item style-1 list-group-label">Réseaux sociaux</li>
+          <li class="list-group-item style-1"><a href="https://www.facebook.com/Fromage-Fiore-344785575533009/" target="_blank"><span class="fa fa-facebook-square"></span> Facebook</a></li>
+          <li class="list-group-item style-1"><a href="#"><span class="fa fa-twitter-square"></span> Twitter</a></li>
+          <li class="list-group-item style-1"><a href="#"><span class="fa fa-google-plus-square"></span> Google Plus</a></li>
+          <li class="list-group-item style-1"><a href="#"><span class="fa fa-pinterest-square"></span> Pinterest</a></li>
+        </ul>
+        
+        </div>
+
+      </aside><!-- /#side-nav  -->
+    	
+        <div class="container-fluid" id="main-container">
+            <div class="row" id="main-row">
+            
+<header>
+                    <nav id="main-nav-bar" class="navbar navbar-default">
+                        <div class="container">
+
+                            
+                            <!-- navbar-header -->
+                            <div class="navbar-header" id="colxs">
+                                            <a class="navbar-brand hidden-xs hidden-sm" href="index.html"><img class="lazy" alt="logo" src="images/logo-Fiore-fr-foncé.png" srcset="images/logo-Fiore-fr-foncé.png 1x, images/logo-Fiore-fr-foncé.png 2x"></a>
+                                            <a class="navbar-brand hidden-lg hidden-md" href="index.html"><img  class="lazy" alt="logo" src="images/logo.png" srcset="images/logo.png 1x, images/logo.png 2x"></a>
+                                            <button class="toggle-side-menu navbar-toggle" type="button"><span class="fa fa-ellipsis-v"></span></button>
+                                            <button class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse" type="button"><span class="fa fa-navicon"></span></button>
+                                            <!--<button class="navbar-toggle" type="button"><span class="fa fa-shopping-cart"></span></button>-->
+                                        </div>
+
+                            <!--<div class="collapse navbar-collapse navbar-right" id="navigation">-->
+                            <div class="collapse navbar-collapse" id="navigation">
+                            
+                                <ul id="main-nav" class="nav navbar-nav">
+                                    <li><a href="index.html">Accueil</a></li>
+                                    
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Présentation <span class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="qui-somme-nous.html">Qui sommes-nous ?</a></li>
+                                            <!--<li><a href="historique.html">Historique</a></li>-->
+                                            <li><a href="le-saviez-vous.html">Le saviez-vous ?</a></li>
+                                            <!--<li><a href="gallery.html">Gallery</a></li>-->
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nos Fromages<span class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="products.html#filter=*">Tous les produits</a></li>
+                                            <li><a href="products.html#filter=.rape">Râpé</a></li>
+                                            <li><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
+                                            <li><a href="products.html#filter=.pate-file">Pâte filé</a></li>
+                                            <li><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
+                                            <li><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
+                                            <li><a href="products.html#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
+                                           
+                                            
+                                        </ul>
+                                    </li>
+
+
+                                   <li  >
+                                       <div class="navbar-header" id="logoPc">
+                                            <a class="navbar-brand hidden-xs hidden-sm" href="index.html"><img class="lazy" alt="logo" src="images/logo-Fiore-fr-foncé.png" srcset="images/logo-Fiore-fr-foncé.png 1x, images/logo-Fiore-fr-foncé.png 2x"></a>
+                                            <a class="navbar-brand hidden-lg hidden-md" href="index.html"><img  class="lazy" alt="logo" src="images/logo.png" srcset="images/logo.png 1x, images/logo.png 2x"></a>
+                                            <button class="toggle-side-menu navbar-toggle" type="button"><span class="fa fa-ellipsis-v"></span></button>
+                                            <button class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse" type="button"><span class="fa fa-navicon"></span></button>
+                                            <!--<button class="navbar-toggle" type="button"><span class="fa fa-shopping-cart"></span></button>-->
+                                        </div>
+                                   </li>
+
+
+
+                                    <li><a href="recette.html">Recettes</a></li>
+                                    
+                                    <!--<li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog <span class="fa fa-angle-down"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="blog-standard.html">Blog Standard</a></li>
+                                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                                            <li><a href="blog-entry.html">Blog Entry 1</a></li>
+                                            <li><a href="blog-entry-alternative.html">Blog Entry 2</a></li>
+                                        </ul>
+                                    </li>-->
+                                    <!--<li><a href="elements.html">Elements</a></li>-->
+                                    <li class="active"><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <!--<a href="https://www.facebook.com/Fromage-Fiore-344785575533009/" target="_blank" id="sfb">
+                                           <img src="images/Suivez-nous-sur-FB.png"> 
+                                        </a>-->
+                                        <a href="https://www.facebook.com/fiorefromage/" target="_blank"><span class="fa fa-facebook-square" style="font-size: x-large;"></span></a>
+                                    </li>
+                                    <li style="margin-left: -15px;">
+                                        
+                                        <a href="#" target="_blank"><span class="fa fa-youtube-square" style="font-size: x-large;"></span></a>
+                                    </li>
+
+                                    <li style="margin-left: -15px;">
+                                        
+                                        <a href="#" target="_blank"><span class="fa fa-instagram" style="font-size: x-large;"></span></a>
+                                    </li>
+
+                                    <li style="margin-left: -15px;">
+                                        <a href="#" target="_blank"><span class="fa fa-search" style="font-size: x-large;"></span></a>
+                                        
+                                    </li>
+                                </ul>
+
+                                <!--<ul id="tool-nav" class="nav navbar-nav hidden-xs hidden-sm">
+                                    
+                                    <li><a href="#" class="toggle-side-menu"><span class="fa fa-ellipsis-v"></span></a></li>
+                                </ul>-->
+                            
+                            </div>
+                            <!-- /.navbar-collapse -->
+                            
+                            
+                            <!-- /.container -->
+                            
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+</header>
+
+				<!-- .page-header -->
+				<div class="page-header" style="background-image:url(images/image_0016.png)" data-stellar-background-ratio="0.2">
+			        <div class="container">
+			            <div class="row">
+			            	<div class="col-sm-12">
+								<ol class="breadcrumb">
+								  <li><a href="index.html" style="color:#fff5ee;text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;">Accueil</a></li>
+								  <li class="active" style="color:#fff5ee;text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;">Contact</li>
+								</ol>
+							  <h1 style="color:#fff5ee;text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;">Contact</h1>
+			            	</div>
+						</div>    
+		            </div>
+		        </div>
+				<!-- /.page-header -->
+
+	            <section id="contact">
+	                <div class="container">
+	                    <div class="row">
+		                    <div class="col-sm-5">
+								<form>
+									<h2 style="font-weight: bold;color: #ce2b37;">Contactez-nous</h2>
+									<div class="form-group">
+									    <label for="msg-email">Addresse email</label>
+									    <input type="email" class="form-control" id="msg-email" placeholder="Email">
+									</div>
+									<div class="form-group">
+									    <label for="msg-email">Objet</label>
+    										<input type="text" class="form-control" id="msg-email" placeholder="Objet">
+									</div>
+									<div class="form-group">
+									    <label for="msg-text">Message</label>
+									    <textarea rows="6" class="form-control" id="msg-text" placeholder="Message"></textarea>
+									</div>
+									
+									<button class="btn btn-primary btn-lg btn-animated btn-style-1" type="submit">
+									<span class="btn-label">Envoyer message</span>
+									<span class="btn-icon fa fa-envelope"></span>
+									</button>
+									
+									
+								</form>
+		                    </div>
+   		                    <div class="col-sm-6">
+ 								<h2 style="font-weight: bold;color: #ce2b37;">Visitez-nous</h2>
+ 								<h3>Adresse</h3>
+  		                    	<p>
+   		                    	<span class="fa fa-map-marker primary bigger" style="font-size: 28px;"></span> Fromagerie Fiore Km 1 Route d'Azmour 8080 Menzel Temime. Tunisie 
+   		                    	</p>
+ 								<h3>Email</h3>
+  		                    	<p>
+   		                    	<span class="fa fa-envelope primary bigger"></span> <a href="mailto:info@fiorefromage.com">info@fiorefromage.com</a>
+   		                    	</p>
+                <h3>Tel</h3>
+                            <p>
+                            <!--<span class="fa fa-phone-square primary bigger"></span> (+216)72.348.810<br>
+                                                                                    <p>(+216)72.348.811</p><br> 
+                                                                                    <p>(+216)72.348.812</p><br> -->
+
+                              <div class="row" >
+                              <div class="col-sm-1"><span class="fa fa-phone-square primary bigger"></span></div>
+
+                              <div class="col-sm-10">
+
+                                <div class="row" id="tels">
+                                    <div class="col-sm-12"><p>(+216)72.348.810</p></div>
+                                    <div class="col-sm-12"><p>(+216)72.348.811</p></div>
+                                    <div class="col-sm-12"><p>(+216)72.348.812</p></div>
+                                </div>
+
+
+                              </div>
+
+
+                              
+                              </div>
+
+                            </p>
+
+                <h3>Fax</h3>
+                            <p>
+                            <span class="fa fa-fax primary bigger"></span> (+216)72.348.813
+                            </p><br>
+   		                    
+  		                    	<!--<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. Quisque cursus ac velit nec elementum. Nulla varius ex quis ante auctor, non consequat velit faucibus.
+   		                    	</p>-->
+   		                    
+   		                    </div>
+	                    </div>
+	                </div>
+                </section>
+	            
+	            <section id="location">
+		            <div id="map">
+		            
+		            </div>	         
+	            </section>
+
+<footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-5">
+                <ul class="list-group">
+                  <li class="list-group-item style-1 list-group-label">Nos fromages</li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=*">Tous les produits</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.rape">Râpé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-file">Pâte filé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
+                                    <li class="list-group-item style-1"><a href="products.html#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
+
+                </ul>     
+              </div>
+              <div class="col-sm-4">
+                <ul class="list-group">
+                  <li class="list-group-item style-1 list-group-label">Présentation</li>
+                                    <li class="list-group-item style-1"><a href="qui-somme-nous.html">Qui sommes-nous ?</a></li>
+                                    <!--<li class="list-group-item style-1"><a href="historique.html">Historique</a></li>-->
+                                    <li class="list-group-item style-1"><a href="le-saviez-vous.html">Le saviez-vous ?</a></li>
+                                    <!--<li class="list-group-item style-1"><a href="gallery.html">Galerie</a></li>-->
+                </ul>     
+              </div>
+              <!--<div class="col-sm-3">
+                <ul class="list-group">
+                  <li class="list-group-item style-1 list-group-label">Clients</li>
+                  <li class="list-group-item style-1"><a href="register.html">Register</a></li>
+                  <li class="list-group-item style-1"><a href="login.html">Login</a></li>
+                  <li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
+                  <li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+                </ul>     
+              </div>-->
+              <div class="col-sm-3 col-xs-12">
+                                <center>
+                                    <ul class="list-group">
+                                        <li class="list-group-item style-1 list-group-label">Réseaux Sociaux</li>
+                                    </ul>
+                                </center>
+                                <center id="fb">
+                                 <a href="https://twitter.com" class="icon-button twitter" target="_blank"><i class="icon-twitter"></i><span></span></a>
+                                 <a href="https://www.facebook.com/Fromage-Fiore-344785575533009/" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
+                                 <a href="https://plus.google.com" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span></span></a>
+                                </center>
+                    
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 pad-v text-center">
+                <img alt="logo" src="images/logo-Fiore-fr-foncé-footer.png" class="img-responsive1" srcset="images/logo-Fiore-fr-foncé-footer.png 1x, images/logo-Fiore-fr-foncé-footer.png 2x">
+              </div>
+            </div>
+            
+          </div>
+                </footer>
+                
+            </div>
+            <!-- /#main-row -->
+        </div>
+        <!-- /#main-container -->
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="src/js/jquery.swipebox.min.js"></script>
+        <script type="text/javascript" src="src/js/jquery.stellar.js"></script>
+        <script type="text/javascript" src="src/js/swiper.jquery.min.js"></script>
+        <script type="text/javascript" src="src/js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="src/js/sticky.js"></script>
+        <script type="text/javascript" src="src/js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu3ZxvDhvYO6JCdL77p6qRveFeAjBOhhk &sensor=false" ></script>
+
+        <script type="text/javascript" src="src/js/winemaker-theme.js"></script>
+        <script type="text/javascript">
+          var map;
+          
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                  // Disable mouse scroll
+                  scrollwheel: false,
+                  
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(36.7921336, 11.002018000000021),
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"road","stylers":[{"hue":"#5e00ff"},{"saturation":-79}]},{"featureType":"poi","stylers":[{"saturation":-78},{"hue":"#6600ff"},{"lightness":-47},{"visibility":"off"}]},{"featureType":"road.local","stylers":[{"lightness":22}]},{"featureType":"landscape","stylers":[{"hue":"#6600ff"},{"saturation":-11}]},{},{},{"featureType":"water","stylers":[{"saturation":-65},{"hue":"#1900ff"},{"lightness":8}]},{"featureType":"road.local","stylers":[{"weight":1.3},{"lightness":30}]},{"featureType":"transit","stylers":[{"visibility":"simplified"},{"hue":"#5e00ff"},{"saturation":-16}]},{"featureType":"transit.line","stylers":[{"saturation":-72}]},{}]
+                };
+
+                        // Get the HTML DOM element that will contain your map 
+                        // We are using a div with id="map" seen below in the <body>
+                        var mapElement = document.getElementById('map');
+
+                        // Create the Google Map using our element and options defined above
+                        map = new google.maps.Map(mapElement, mapOptions);
+
+                        // Let's also add a marker while we're at it
+                        var marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(36.7921336, 11.002018000000021),
+                            map: map,
+                            title: 'Snazzy!'
+                        });
+                    }
+                    
+                    // When the window has finished loading create our google map below
+                    google.maps.event.addDomListener(window, 'load', init);
+                    
+                    // Keep the map centered when resize
+              google.maps.event.addDomListener(window, 'resize', function() {
+              var center = map.getCenter();
+              google.maps.event.trigger(map, 'resize');
+              map.setCenter(center); 
+              });            
+      
+        </script>
+	</body>
+
+<!-- Mirrored from www.directdesign.it/demos/chateau/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Mar 2018 10:20:15 GMT -->
+</html>

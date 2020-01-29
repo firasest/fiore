@@ -4,21 +4,21 @@
 							<div class="col-sm-5">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">Nos fromages</li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=*">Tous les produits</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.rape">Râpé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-file">Pâte filé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=*">Tous les produits</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.rape">Râpé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.pate-presse">Pâte pressé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.pate-file">Pâte filé</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.pate-molle">Pâte molle</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.pate-fraiche">Pâte fraîche</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
 
 								</ul>    	
 							</div>
 							<div class="col-sm-4">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">Présentation</li>
-                                    <li class="list-group-item style-1"><a href="qui-somme-nous.html">Qui sommes-nous ?</a></li>
-                                    <li class="list-group-item style-1"><a href="le-saviez-vous.html">Le saviez-vous ?</a></li>
+                                    <li class="list-group-item style-1"><a href="qui-somme-nous.php">Qui sommes-nous ?</a></li>
+                                    <li class="list-group-item style-1"><a href="le-saviez-vous.php">Le saviez-vous ?</a></li>
 								</ul>    	
 							</div>
 							<div class="col-sm-3 col-xs-12">

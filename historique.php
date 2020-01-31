@@ -67,78 +67,7 @@
         <div class="container-fluid" id="main-container">
             <div class="row" id="main-row">
             
-        <header>
-                    <nav id="main-nav-bar" class="navbar navbar-default">
-                        <div class="container">
-
-                            <div class="navbar-header">
-                                <a class="navbar-brand hidden-xs hidden-sm" href="index.html"><img alt="chateau" src="images/logo-Fiore-fr-foncé.png" srcset="images/logo-Fiore-fr-foncé.png 1x, images/logo-Fiore-fr-foncé.png 2x"></a>
-                                <a class="navbar-brand hidden-lg hidden-md" href="index.html"><img alt="chateau" src="images/logo.png" srcset="images/logo.png 1x, images/logo.png 2x"></a>
-                                <button class="toggle-side-menu navbar-toggle" type="button"><span class="fa fa-ellipsis-v"></span></button>
-                                <button class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse" type="button"><span class="fa fa-navicon"></span></button>
-                                <button class="navbar-toggle" type="button"><span class="fa fa-shopping-cart"></span></button>
-                            </div>
-                            <!-- navbar-header -->
-
-                            <div class="collapse navbar-collapse navbar-right" id="navigation">
-                            
-                                <ul id="main-nav" class="nav navbar-nav">
-                                    <li class="active"><a href="index.html">Accueil</a></li>
-                                    
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Présentation <span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="qui-somme-nous.html">Qui sommes-nous ?</a></li>
-                                            <!--<li><a href="historique.html">Historique</a></li>-->
-                                            <li><a href="le-saviez-vous.html">Le saviez-vous ?</a></li>
-                                            <!--<li><a href="gallery.html">Gallery</a></li>-->
-                                        </ul>
-                                    </li>
-                                    
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nos Fromages<span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="products.html#filter=*">Tous les produits</a></li>
-                                            <li><a href="products.html#filter=.rape">Râpé</a></li>
-                                            <li><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
-                                            <li><a href="products.html#filter=.pate-file">Pâte filé</a></li>
-                                            <li><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
-                                            <li><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
-                                            <li><a href="products.html#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
-                                           
-                                            
-                                        </ul>
-                                    </li>
-                                    <li><a href="recette.html">Recettes</a></li>
-                                    
-                                    <!--<li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog <span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                                            <li><a href="blog-entry.html">Blog Entry 1</a></li>
-                                            <li><a href="blog-entry-alternative.html">Blog Entry 2</a></li>
-                                        </ul>
-                                    </li>-->
-                                    <!--<li><a href="elements.html">Elements</a></li>-->
-                                    <li><a href="contact.html">Contact</a></li>
-                                </ul>
-
-                                <ul id="tool-nav" class="nav navbar-nav hidden-xs hidden-sm">
-                                    <!--<li><a href="cart.html"><span class="fa fa-shopping-cart"></span></a></li>-->
-                                    <li><a href="#" class="toggle-side-menu"><span class="fa fa-ellipsis-v"></span></a></li>
-                                </ul>
-                            
-                            </div>
-                            <!-- /.navbar-collapse -->
-                            
-                            
-                            <!-- /.container -->
-                            
-                        </div>
-                        <!-- /.container-fluid -->
-                    </nav>
-                </header>
+            <?php include("includes/header.php") ?>
 
 				<!-- .page-header -->
 				<!--<div class="page-header" style="background-image:url(images/historique.png)" data-stellar-background-ratio="0.2">-->
@@ -226,63 +155,7 @@
                     </div>
                 </section>
 
-<footer>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <ul class="list-group">
-                                    <li class="list-group-item style-1 list-group-label">Nos fromages</li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=*">Tous les produits</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.rape">Râpé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-file">Pâte filé</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.a-base-alimentaire">Préparation alimentaire</a></li>
-
-                                </ul>       
-                            </div>
-                            <div class="col-sm-4">
-                                <ul class="list-group">
-                                    <li class="list-group-item style-1 list-group-label">Présentation</li>
-                                    <li class="list-group-item style-1"><a href="qui-somme-nous.html">Qui sommes-nous ?</a></li>
-                                    <li class="list-group-item style-1"><a href="historique.html">Historique</a></li>
-                                    <li class="list-group-item style-1"><a href="le-saviez-vous.html">Le saviez-vous ?</a></li>
-                                    <li class="list-group-item style-1"><a href="gallery.html">Galerie</a></li>
-                                </ul>       
-                            </div>
-                            <!--<div class="col-sm-3">
-                                <ul class="list-group">
-                                    <li class="list-group-item style-1 list-group-label">Clients</li>
-                                    <li class="list-group-item style-1"><a href="register.html">Register</a></li>
-                                    <li class="list-group-item style-1"><a href="login.html">Login</a></li>
-                                    <li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-                                    <li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
-                                </ul>       
-                            </div>-->
-                            <div class="col-sm-3 col-xs-12">
-                                <center>
-                                    <ul class="list-group">
-                                        <li class="list-group-item style-1 list-group-label">Réseaux Sociaux</li>
-                                    </ul>
-                                </center>
-                                <center id="fb">
-                                 <a href="https://twitter.com" class="icon-button twitter" target="_blank"><i class="icon-twitter"></i><span></span></a>
-                                 <a href="https://www.facebook.com/Fromage-Fiore-344785575533009/" class="icon-button facebook" target="_blank"><i class="icon-facebook"></i><span></span></a>
-                                 <a href="https://plus.google.com" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span></span></a>
-                                </center>
-                                    
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-sm-4 col-sm-offset-4 pad-v text-center">
-                                <img alt="chateau" src="images/logo-Fiore-fr-foncé-footer.png" class="img-responsive1" srcset="images/logo-Fiore-fr-foncé-footer.png 1x, images/logo-Fiore-fr-foncé-footer.png 2x">
-                            </div>
-                        </div>
-                        
-                    </div>
-                </footer>
+                <?php include("includes/footer.php") ?>
                 
             </div>
             <!-- /#main-row -->

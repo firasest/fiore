@@ -64,67 +64,7 @@
         <div class="container-fluid" id="main-container">
             <div class="row" id="main-row">
             
-                <header>
-                    <nav id="main-nav-bar" class="navbar navbar-default">
-                        <div class="container">
-
-                            <div class="navbar-header">
-                                <a class="navbar-brand hidden-xs hidden-sm" href="index-2.html"><img alt="chateau" src="images/logo-1x.png" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x"></a>
-                                <a class="navbar-brand hidden-lg hidden-md" href="index-2.html"><img alt="chateau" src="images/logo-mobile-1x.png" srcset="images/logo-mobile-1x.png 1x, images/logo-mobile-2x.png 2x"></a>
-                                <button class="toggle-side-menu navbar-toggle" type="button"><span class="fa fa-ellipsis-v"></span></button>
-                                <button class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse" type="button"><span class="fa fa-navicon"></span></button>
-                                <button class="navbar-toggle" type="button"><span class="fa fa-shopping-cart"></span></button>
-                            </div>
-                            <!-- navbar-header -->
-
-                            <div class="collapse navbar-collapse navbar-right" id="navigation">
-                            
-                                <ul id="main-nav" class="nav navbar-nav">
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="products.html#filter=*">All Products</a></li>
-                                            <li><a href="products.html#filter=.red-wines">Red Wines</a></li>
-                                            <li><a href="products.html#filter=.white-wines">White Wines</a></li>
-                                            <li><a href="products.html#filter=.rose-wines">Rosé Wines</a></li>
-                                            <li><a href="products.html#filter=.food-specialties">Food Specialties</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="who-we-are.html">Who we are</a></li>
-                                            <li><a href="our-history.html">Our History</a></li>
-                                            <li><a href="the-vineyard.html">The Vineyard</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                    	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog <span class="fa fa-angle-down"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                                            <li><a href="blog-entry.html">Blog Entry 1</a></li>
-                                            <li><a href="blog-entry-alternative.html">Blog Entry 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="elements.html">Elements</a></li>
-                                    <li><a href="buy-online.html">Buy Online <span class="badge">New</span></a></li>
-                                </ul>
-
-                                <ul id="tool-nav" class="nav navbar-nav hidden-xs hidden-sm">
-                                    <li><a href="cart.html"><span class="fa fa-shopping-cart"></span></a></li>
-                                    <li><a href="#" class="toggle-side-menu"><span class="fa fa-ellipsis-v"></span></a></li>
-                                </ul>
-							
-                            </div>
-                            <!-- /.navbar-collapse -->
-
-	                        <!-- /.container -->
-                        </div>
-                        <!-- /.container-fluid -->
-                    </nav>
-                </header>
+			<?php include("includes/header.php") ?>
 
                 <div class="container-fluid bg-cover" style="background-image:url(images/gallery-1.jpg)">
                     <div class="row">
@@ -170,69 +110,7 @@
                     </div>
                 </div>
 
-                <footer>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-3">
-								<ul class="list-group">
-									<li class="list-group-item style-1 list-group-label">Products</li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=*">All Products</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.red-wines">Red Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.white-wines">White Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.rose-wines">Rosé Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.food-specialties">Food Specialties</a></li>
-								</ul>    	
-							</div>
-							<div class="col-sm-3">
-								<ul class="list-group">
-									<li class="list-group-item style-1 list-group-label">About</li>
-                                    <li class="list-group-item style-1"><a href="who-we-are.html">Who we are</a></li>
-                                    <li class="list-group-item style-1"><a href="our-history.html">Our History</a></li>
-                                    <li class="list-group-item style-1"><a href="the-vineyard.html">The Vineyard</a></li>
-                                    <li class="list-group-item style-1"><a href="gallery.html">Gallery</a></li>
-								</ul>    	
-							</div>
-							<div class="col-sm-3">
-								<ul class="list-group">
-									<li class="list-group-item style-1 list-group-label">Clients</li>
-									<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-									<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-									<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-									<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
-								</ul>    	
-							</div>
-							<div class="col-sm-3">
-								<ul class="list-group">
-									<li class="list-group-item style-1 list-group-label">Services</li>
-									<li class="list-group-item style-1"><a href="buy-online.html">Buy Online <span class="badge">New!</span></a></li>
-									<li class="list-group-item style-1"><a href="#">Blog</a></li>
-								</ul>    	
-							</div>
-						</div>
-						
-						<div class="row">
-							<div class="col-sm-4 col-sm-offset-4 pad-v text-center">
-								<img alt="chateau" src="images/logo-1x.png" class="img-responsive" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x">
-							</div>
-						</div>
-						
-					</div>
-                </footer>
-                <footer class="credits">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6">
-								Chateau Theme Design by <a href="http://www.directdesign.it/">Direct Design</a> / <a href="http://www.andreapilutti.com/">Andrea Pilutti</a>
-							</div>
-							<div class="col-sm-6 text-right social">
-								<a href="#"><span class="fa fa-facebook-square"></span></a>
-								<a href="#"><span class="fa fa-twitter-square"></span></a>
-								<a href="#"><span class="fa fa-google-plus-square"></span></a>
-								<a href="#"><span class="fa fa-pinterest-square"></span></a>
-							</div>
-						</div>
-					</div>
-                </footer>
+				<?php include("includes/footer.php") ?>
 
             </div>
             <!-- /#main-row -->

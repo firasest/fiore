@@ -106,7 +106,7 @@
 			            <div class="row">
 			            	<div class="col-sm-12">
 								<ol class="breadcrumb">
-								  <li><a href="index.html">Accueil</a></li>
+								  <li><a href="index.php">Accueil</a></li>
 								  <li><a href="#">Présentation</a></li>
 								  <li class="active">Qui sommes-nous ?</li>
 								</ol>
@@ -121,10 +121,10 @@
 				<nav id="secondary-nav-bar" class="navbar navbar-default" style="background-color: #074529">
 				  <div class="container">
 				    <ul id="secondary-nav" class="nav navbar-nav">
-	                    <li class="active"><a href="qui-somme-nous.html" class="soustitre" style="font-weight: bold;color: #fff;">Qui somme nous</a></li>
+	                    <li class="active"><a href="qui-somme-nous.php" class="soustitre" style="font-weight: bold;color: #fff;">Qui somme nous</a></li>
 	                    <!--<li><a href="historique.html" style="font-weight: bold;">Historique</a></li>-->
 	                    
-	                    <li><a href="le-saviez-vous.html"  class="soustitre" style="font-weight: bold;color: #fff">Le saviez vous</a></li>
+	                    <li><a href="le-saviez-vous.php"  class="soustitre" style="font-weight: bold;color: #fff">Le saviez vous</a></li>
 	                    <!--<li><a href="gallery.html" style="font-weight: bold;">Galerie</a></li>-->
 				    </ul>
 				  </div>

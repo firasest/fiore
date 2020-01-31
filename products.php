@@ -321,7 +321,7 @@
                                                 <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
                                                 <span class="product-newVert new-fr">Préparation alimentaire</span>
 
-											<a href="rape-dolce.html"><img class="lazy" data-src="images/a-base-alimentaire/Râpé dolce  fiorella 1 kg1.png" class="lazy" alt="Râpé dolce  fiorella 1 kg" width="300" height="600"></a>
+											<a href="rape-dolce.php"><img class="lazy" data-src="images/a-base-alimentaire/Râpé dolce  fiorella 1 kg1.png" class="lazy" alt="Râpé dolce  fiorella 1 kg" width="300" height="600"></a>
 											<div class="b-alimentaire">
 												<h3><a href="rape-dolce.php">RAPE DOLCE</a></h3>
 												<h4><a href="rape-dolce.php">1KG</a></h4>

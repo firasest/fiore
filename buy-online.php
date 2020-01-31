@@ -43,10 +43,10 @@
 
 				<ul class="list-group">
 					<li class="list-group-item style-1 list-group-label">About</li>
-					<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-					<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-					<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-					<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+					<li class="list-group-item style-1"><a href="register.php">Register</a></li>
+					<li class="list-group-item style-1"><a href="login.php">Login</a></li>
+					<li class="list-group-item style-1"><a href="contact.php">Contact</a></li>
+					<li class="list-group-item style-1"><a href="faq.php">FAQ</a></li>
 				</ul>    	
 		        
 				<ul class="list-group">
@@ -72,7 +72,7 @@
 			            <div class="row">
 			            	<div class="col-sm-12">
 								<ol class="breadcrumb">
-								  <li><a href="index-2.html">Home</a></li>
+								  <li><a href="index-2.php">Home</a></li>
 								  <li class="active">Shop</li>
 								</ol>
 							  <h1>Buy wines & foods</h1>
@@ -130,11 +130,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="red-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/red-wine-5.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/red-wine-5.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Pinot Noir</a></h3>
+									<h3><a href="product-sheet.php">Pinot Noir</a></h3>
 									<h4 class="red-wines-text">Dry red wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>
@@ -144,11 +144,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="white-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/white-wine-5.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/white-wine-5.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Chardonnay</a></h3>
+									<h3><a href="product-sheet.php">Chardonnay</a></h3>
 									<h4 class="white-wines-text">Dry white wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>
@@ -158,11 +158,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="rose-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/rose-wine-5.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/rose-wine-5.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Bordeaux</a></h3>
+									<h3><a href="product-sheet.php">Bordeaux</a></h3>
 									<h4 class="rose-wines-text">Dry rose wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>
@@ -172,11 +172,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="rose-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/rose-wine-2.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/rose-wine-2.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Zinfandel</a></h3>
+									<h3><a href="product-sheet.php">Zinfandel</a></h3>
 									<h4 class="rose-wines-text">Dry rose wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>
@@ -186,11 +186,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="red-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/red-wine-2.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/red-wine-2.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Pinot Gris</a></h3>
+									<h3><a href="product-sheet.php">Pinot Gris</a></h3>
 									<h4 class="red-wines-text">Dry red wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>
@@ -200,11 +200,11 @@
 							<div class="shop-item col-sm-6 col-lg-4">
 								<article>
 									<figure class="white-wines">
-										<a href="product-sheet.html"><img class="img-responsive" src="images/white-wine-2.png" alt="chateau" width="300" height="600"></a>
-										<a href="cart.html" class="add-to-cart fa fa-shopping-cart"></a>
+										<a href="product-sheet.php"><img class="img-responsive" src="images/white-wine-2.png" alt="chateau" width="300" height="600"></a>
+										<a href="cart.php" class="add-to-cart fa fa-shopping-cart"></a>
 									</figure>
 									<div>
-									<h3><a href="product-sheet.html">Sirah</a></h3>
+									<h3><a href="product-sheet.php">Sirah</a></h3>
 									<h4 class="white-wines-text">Dry white wine</h4>
 									<h5 class="price">$29.95</h5>
 									</div>

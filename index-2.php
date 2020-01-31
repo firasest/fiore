@@ -43,10 +43,10 @@
 
 				<ul class="list-group">
 					<li class="list-group-item style-1 list-group-label">About</li>
-					<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-					<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-					<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-					<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+					<li class="list-group-item style-1"><a href="register.php">Register</a></li>
+					<li class="list-group-item style-1"><a href="login.php">Login</a></li>
+					<li class="list-group-item style-1"><a href="contact.php">Contact</a></li>
+					<li class="list-group-item style-1"><a href="faq.php">FAQ</a></li>
 				</ul>    	
 		        
 				<ul class="list-group">
@@ -69,8 +69,8 @@
                         <div class="container">
 
                             <div class="navbar-header">
-                                <a class="navbar-brand hidden-xs hidden-sm" href="index-2.html"><img alt="chateau" src="images/logo-1x.png" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x"></a>
-                                <a class="navbar-brand hidden-lg hidden-md" href="index-2.html"><img alt="chateau" src="images/logo-mobile-1x.png" srcset="images/logo-mobile-1x.png 1x, images/logo-mobile-2x.png 2x"></a>
+                                <a class="navbar-brand hidden-xs hidden-sm" href="index-2.php"><img alt="chateau" src="images/logo-1x.png" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x"></a>
+                                <a class="navbar-brand hidden-lg hidden-md" href="index-2.php"><img alt="chateau" src="images/logo-mobile-1x.png" srcset="images/logo-mobile-1x.png 1x, images/logo-mobile-2x.png 2x"></a>
                                 <button class="toggle-side-menu navbar-toggle" type="button"><span class="fa fa-ellipsis-v"></span></button>
                                 <button class="navbar-toggle collapsed" data-target="#navigation" data-toggle="collapse" type="button"><span class="fa fa-navicon"></span></button>
                                 <button class="navbar-toggle" type="button"><span class="fa fa-shopping-cart"></span></button>
@@ -83,37 +83,37 @@
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="fa fa-angle-down"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="products.html#filter=*">All Products</a></li>
-                                            <li><a href="products.html#filter=.red-wines">Red Wines</a></li>
-                                            <li><a href="products.html#filter=.white-wines">White Wines</a></li>
-                                            <li><a href="products.html#filter=.rose-wines">Rosé Wines</a></li>
-                                            <li><a href="products.html#filter=.food-specialties">Food Specialties</a></li>
+                                            <li><a href="products.php#filter=*">All Products</a></li>
+                                            <li><a href="products.php#filter=.red-wines">Red Wines</a></li>
+                                            <li><a href="products.php#filter=.white-wines">White Wines</a></li>
+                                            <li><a href="products.php#filter=.rose-wines">Rosé Wines</a></li>
+                                            <li><a href="products.php#filter=.food-specialties">Food Specialties</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="fa fa-angle-down"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="who-we-are.html">Who we are</a></li>
-                                            <li><a href="our-history.html">Our History</a></li>
-                                            <li><a href="the-vineyard.html">The Vineyard</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="who-we-are.php">Who we are</a></li>
+                                            <li><a href="our-history.php">Our History</a></li>
+                                            <li><a href="the-vineyard.php">The Vineyard</a></li>
+                                            <li><a href="gallery.php">Gallery</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
                                     	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog <span class="fa fa-angle-down"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                                            <li><a href="blog-entry.html">Blog Entry 1</a></li>
-                                            <li><a href="blog-entry-alternative.html">Blog Entry 2</a></li>
+                                            <li><a href="blog-standard.php">Blog Standard</a></li>
+                                            <li><a href="blog-masonry.php">Blog Masonry</a></li>
+                                            <li><a href="blog-entry.php">Blog Entry 1</a></li>
+                                            <li><a href="blog-entry-alternative.php">Blog Entry 2</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="elements.html">Elements</a></li>
-                                    <li><a href="buy-online.html">Buy Online <span class="badge">New</span></a></li>
+                                    <li><a href="elements.php">Elements</a></li>
+                                    <li><a href="buy-online.php">Buy Online <span class="badge">New</span></a></li>
                                 </ul>
 
                                 <ul id="tool-nav" class="nav navbar-nav hidden-xs hidden-sm">
-                                    <li><a href="cart.html"><span class="fa fa-shopping-cart"></span></a></li>
+                                    <li><a href="cart.php"><span class="fa fa-shopping-cart"></span></a></li>
                                     <li><a href="#" class="toggle-side-menu"><span class="fa fa-ellipsis-v"></span></a></li>
                                 </ul>
 							
@@ -308,7 +308,7 @@
 
                         <div class="row">
                             <div class="col-sm-6 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.red-wines">
+                                <a href="products.php#filter=.red-wines">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Red Wines
@@ -320,7 +320,7 @@
                             </div>
 
                             <div class="col-sm-6 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.rose-wines">
+                                <a href="products.php#filter=.rose-wines">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Rosé Wines
@@ -332,7 +332,7 @@
                             </div>
 
                             <div class="col-sm-6 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.white-wines">
+                                <a href="products.php#filter=.white-wines">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         White Wines
@@ -344,7 +344,7 @@
                             </div>
 
                             <div class="col-sm-6 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.food-specialties">
+                                <a href="products.php#filter=.food-specialties">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Food Specialties
@@ -440,35 +440,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. M
 							<div class="col-sm-3">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">Products</li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=*">All Products</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.red-wines">Red Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.white-wines">White Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.rose-wines">Rosé Wines</a></li>
-                                    <li class="list-group-item style-1"><a href="products.html#filter=.food-specialties">Food Specialties</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=*">All Products</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.red-wines">Red Wines</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.white-wines">White Wines</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.rose-wines">Rosé Wines</a></li>
+                                    <li class="list-group-item style-1"><a href="products.php#filter=.food-specialties">Food Specialties</a></li>
 								</ul>    	
 							</div>
 							<div class="col-sm-3">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">About</li>
-                                    <li class="list-group-item style-1"><a href="who-we-are.html">Who we are</a></li>
-                                    <li class="list-group-item style-1"><a href="our-history.html">Our History</a></li>
-                                    <li class="list-group-item style-1"><a href="the-vineyard.html">The Vineyard</a></li>
-                                    <li class="list-group-item style-1"><a href="gallery.html">Gallery</a></li>
+                                    <li class="list-group-item style-1"><a href="who-we-are.php">Who we are</a></li>
+                                    <li class="list-group-item style-1"><a href="our-history.php">Our History</a></li>
+                                    <li class="list-group-item style-1"><a href="the-vineyard.php">The Vineyard</a></li>
+                                    <li class="list-group-item style-1"><a href="gallery.php">Gallery</a></li>
 								</ul>    	
 							</div>
 							<div class="col-sm-3">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">Clients</li>
-									<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-									<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-									<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-									<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+									<li class="list-group-item style-1"><a href="register.php">Register</a></li>
+									<li class="list-group-item style-1"><a href="login.php">Login</a></li>
+									<li class="list-group-item style-1"><a href="contact.php">Contact</a></li>
+									<li class="list-group-item style-1"><a href="faq.php">FAQ</a></li>
 								</ul>    	
 							</div>
 							<div class="col-sm-3">
 								<ul class="list-group">
 									<li class="list-group-item style-1 list-group-label">Services</li>
-									<li class="list-group-item style-1"><a href="buy-online.html">Buy Online <span class="badge">New!</span></a></li>
+									<li class="list-group-item style-1"><a href="buy-online.php">Buy Online <span class="badge">New!</span></a></li>
 									<li class="list-group-item style-1"><a href="#">Blog</a></li>
 								</ul>    	
 							</div>

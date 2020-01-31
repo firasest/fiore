@@ -112,7 +112,7 @@
 							<div class="col-sm-12">
 								<ol class="breadcrumb">
 									<li>
-										<a href="index.html">Accueil</a>
+										<a href="index.php">Accueil</a>
 									</li>
 									<li class="active">Recettes
 									</li>
@@ -129,9 +129,9 @@
 				<nav id="secondary-nav-bar" class="navbar navbar-default" style="background-color: #074529">
 				  <div class="container">
 				    <ul id="secondary-nav" class="nav navbar-nav" style="margin-top: 12px;">
-				    	<div class="col-sm-2"><li><a href="index.html" class="soustitre" style="text-transform: uppercase;font-weight: bold;color: #fff;">Accueil</a></li></div>
+				    	<div class="col-sm-2"><li><a href="index.php" class="soustitre" style="text-transform: uppercase;font-weight: bold;color: #fff;">Accueil</a></li></div>
 				    	<div class="col-sm-1" style="color: #fff"> /</div>
-				    	<div class="col-sm-2"><li><a href="recette.html" class="soustitre" style="text-transform: uppercase;font-weight: bold;color: #fff;">Recette</a></li></div>
+				    	<div class="col-sm-2"><li><a href="recette.php" class="soustitre" style="text-transform: uppercase;font-weight: bold;color: #fff;">Recette</a></li></div>
 				    	<div class="col-sm-1"  style="color: #fff"> /</div>
 				    	<div class="col-sm-5"><li><a class="active" class="soustitre" style="font-weight: bold;color: #fff;border-bottom: 3px solid #fff">TORTAFIORE</a></li></div>
 
@@ -255,13 +255,13 @@
 
 								<ul class="list-group widget">
 									<li class="list-group-item style-2 list-group-label" style="color: #009246;">Nos fromages</li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=*">Tous les produits</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.rape">Râpé</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.pate-presse">Pâte pressé</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.pate-file">Pâte filé</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.pate-molle">Pâte molle</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.pate-fraiche">Pâte fraîche</a></li>
-                                    <li class="list-group-item style-2"><a href="products.html#filter=.a-base-alimentaire">A base alimentaire</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=*">Tous les produits</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.rape">Râpé</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.pate-presse">Pâte pressé</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.pate-file">Pâte filé</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.pate-molle">Pâte molle</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.pate-fraiche">Pâte fraîche</a></li>
+                                    <li class="list-group-item style-2"><a href="products.php#filter=.a-base-alimentaire">A base alimentaire</a></li>
 
 								</ul>    	
 							
@@ -273,22 +273,22 @@
 								
 								<div class="row row-small-gutter">
 									<div class="col-xs-4 col-small-gutter">
-										<a href="BISTECCA-DI-FIORE-PANNEE.html"><img alt="BISTECCA-DI-FIORE-PANNEE" class="img-responsive img-thumbnail" src="images/galerie/slide-1-blog.png"/></a>
+										<a href="BISTECCA-DI-FIORE-PANNEE.php"><img alt="BISTECCA-DI-FIORE-PANNEE" class="img-responsive img-thumbnail" src="images/galerie/slide-1-blog.png"/></a>
 									</div>
 									<div class="col-xs-4 col-small-gutter">
-										<a href="TIRAMISU.html"><img alt="TIRAMISU" class="img-responsive img-thumbnail" src="images/galerie/slide-2-blog.png"/></a>
+										<a href="TIRAMISU.php"><img alt="TIRAMISU" class="img-responsive img-thumbnail" src="images/galerie/slide-2-blog.png"/></a>
 									</div>
 									<div class="col-xs-4 col-small-gutter">
-										<a href="TORTAFIORE.html"><img alt="TORTAFIORE" class="img-responsive img-thumbnail" src="images/galerie/slide-3-blog.png"/></a>
+										<a href="TORTAFIORE.php"><img alt="TORTAFIORE" class="img-responsive img-thumbnail" src="images/galerie/slide-3-blog.png"/></a>
 									</div>
 									<div class="col-xs-4 col-small-gutter">
-										<a href="CREME-DE-STRACCHINO.html"><img alt="CREME-DE-STRACCHINO" class="img-responsive img-thumbnail" src="images/galerie/slide-4-blog.png"/></a>
+										<a href="CREME-DE-STRACCHINO.php"><img alt="CREME-DE-STRACCHINO" class="img-responsive img-thumbnail" src="images/galerie/slide-4-blog.png"/></a>
 									</div>
 									<div class="col-xs-4 col-small-gutter">
-										<a href="FIORE-DOREES.html"><img alt="FIORE-DOREES" class="img-responsive img-thumbnail" src="images/galerie/slide-5-blog.png"/></a>
+										<a href="FIORE-DOREES.php"><img alt="FIORE-DOREES" class="img-responsive img-thumbnail" src="images/galerie/slide-5-blog.png"/></a>
 									</div>
 									<div class="col-xs-4 col-small-gutter">
-										<a href="GRATIN-BASTARDO.html"><img alt="GRATIN-BASTARDO" class="img-responsive img-thumbnail" src="images/galerie/slide-6-blog.png"/></a>
+										<a href="GRATIN-BASTARDO.php"><img alt="GRATIN-BASTARDO" class="img-responsive img-thumbnail" src="images/galerie/slide-6-blog.png"/></a>
 									</div>
 									
 									

@@ -120,7 +120,7 @@
                                                 <p class="color-light" data-animation="animated bounceInUp" style="text-align: justify;">
                                                     Les fromages à pâte pressée sont traditionnellement fabriqués en montagne, l’été, quand le lait est riche et abondant, puis descendus dans la vallée pendant l’hiver : ce sont à l’origine des fromages d’alpages, même si leur de mode de fabrication a été reproduit par l’industrie.
                                                 </p>
-                                                <a href="products.html#filter=.pate-presse" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
+                                                <a href="products.php#filter=.pate-presse" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -141,7 +141,7 @@
                                                 <p class="color-light" data-animation="animated bounceInUp" style="text-align: justify;">
                                                     Fromage à pâte fraîche est une appellation désignant un fromage ou un fromage de lactosérum jeune, sans croûte formée, élaboré à partir de lait ou de petit lait, et dont la pâte n'a pas fermenté ni été affinée.
                                                 </p>
-                                                <a href="products.html#filter=.pate-fraiche" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
+                                                <a href="products.php#filter=.pate-fraiche" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@
                                                 <p class="color-light" data-animation="animated bounceInUp" style="text-align: justify;">
                                                     La pizza n'est jamais meilleure que garnie de mozzarella et la mozzarella n’est jamais meilleure que lorsqu’elle est la Mozzarella Di Fiore ...
                                                 </p>
-                                                <a href="products.html#filter=*" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp" ><span class="btn-label">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
+                                                <a href="products.php#filter=*" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp" ><span class="btn-label">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -183,7 +183,7 @@
                                                 <p class="color-light" data-animation="animated bounceInUp" style="text-align: justify;">
                                                     Les pâtes molles sont ensemencées en surface avec une moisissure qui provoque, par affinage en cave, l'apparition d'une croûte. Le terme à pâte molle s'applique à un fromage qui, au moment de sa fabrication, ne subit ni chauffage, ni pressage. La pâte est alors onctueuse voire coulante à pleine maturation du fromage.
                                                 </p>
-                                                <a href="products.html#filter=.pate-molle" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp" ><span class="btn-label">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
+                                                <a href="products.php#filter=.pate-molle" class="btn btn-primary btn-lg btn-animated btn-style-1" data-animation="animated bounceInUp" ><span class="btn-label">Lire plus</span><span class="btn-icon fa fa-chevron-right"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -273,7 +273,7 @@
 
                         <div class="row">
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-fraiche">
+                                <a href="products.php#filter=.pate-fraiche">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Pâte fraîche
@@ -286,7 +286,7 @@
 
 
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-presse">
+                                <a href="products.php#filter=.pate-presse">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Pâte pressé
@@ -298,7 +298,7 @@
                             </div>
 
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-file">
+                                <a href="products.php#filter=.pate-file">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Pâte filé
@@ -310,7 +310,7 @@
                             </div>
 
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.rape">
+                                <a href="products.php#filter=.rape">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Râpé
@@ -323,7 +323,7 @@
 
 
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.a-base-alimentaire">
+                                <a href="products.php#filter=.a-base-alimentaire">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Préparation alimentaire
@@ -335,7 +335,7 @@
                             </div>
 
                             <div class="col-sm-4 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-molle">
+                                <a href="products.php#filter=.pate-molle">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <figcaption>
                                         Pâte molle

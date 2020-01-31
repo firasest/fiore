@@ -98,8 +98,8 @@
 							</div>
 							<div class="col-sm-8">
 								<ol class="breadcrumb">
-                  <li><a href="index.html" style="text-transform: uppercase;">Accueil</a></li>
-                  <li><a href="products.html" style="text-transform: uppercase;">Nos Fromages</a></li>
+                  <li><a href="index.php" style="text-transform: uppercase;">Accueil</a></li>
+                  <li><a href="products.php" style="text-transform: uppercase;">Nos Fromages</a></li>
                   <li class="active">BISTECCA DI FIORE</li>
                 </ol>
 							<h1><span style="color:#1a761d">BISTECCA</span><span style="color:#fff5ee;text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;"> DI</span><span style="color:#CE2B37"> FIORE</span></h1>

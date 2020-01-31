@@ -43,10 +43,10 @@
 
 				<ul class="list-group">
 					<li class="list-group-item style-1 list-group-label">About</li>
-					<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-					<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-					<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-					<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+					<li class="list-group-item style-1"><a href="register.php">Register</a></li>
+					<li class="list-group-item style-1"><a href="login.php">Login</a></li>
+					<li class="list-group-item style-1"><a href="contact.php">Contact</a></li>
+					<li class="list-group-item style-1"><a href="faq.php">FAQ</a></li>
 				</ul>    	
 		        
 				<ul class="list-group">
@@ -91,7 +91,7 @@
 								  <button type="submit" class="btn btn-primary btn-lg btn-style-1 center-block">Sign in</button>
 								</form>
 								<div class="form-box-msg text-center">
-								  You don't have an account yet? <a href="register.html">Register here</a>
+								  You don't have an account yet? <a href="register.php">Register here</a>
 								</div>
 								</div>
 		                    </div>

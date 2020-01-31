@@ -43,10 +43,10 @@
 
 				<ul class="list-group">
 					<li class="list-group-item style-1 list-group-label">About</li>
-					<li class="list-group-item style-1"><a href="register.html">Register</a></li>
-					<li class="list-group-item style-1"><a href="login.html">Login</a></li>
-					<li class="list-group-item style-1"><a href="contact.html">Contact</a></li>
-					<li class="list-group-item style-1"><a href="faq.html">FAQ</a></li>
+					<li class="list-group-item style-1"><a href="register.php">Register</a></li>
+					<li class="list-group-item style-1"><a href="login.php">Login</a></li>
+					<li class="list-group-item style-1"><a href="contact.php">Contact</a></li>
+					<li class="list-group-item style-1"><a href="faq.php">FAQ</a></li>
 				</ul>    	
 		        
 				<ul class="list-group">
@@ -88,7 +88,7 @@
 											<td data-th="Product">
 												<div class="row">
 													<div class="col-sm-12">
-														<a href="product-sheet.html"><img src="images/rose-wine-1.png" alt="chateau" class="pull-left product-thumb"/></a>
+														<a href="product-sheet.php"><img src="images/rose-wine-1.png" alt="chateau" class="pull-left product-thumb"/></a>
 														<h4 class="nomargin">Pinot Noir 2015</h4>
 														<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 													</div>
@@ -108,7 +108,7 @@
 											<td data-th="Product">
 												<div class="row">
 													<div class="col-sm-12">
-														<a href="product-sheet.html"><img src="images/white-wine-1.png" alt="chateau" class="pull-left product-thumb"/></a>
+														<a href="product-sheet.php"><img src="images/white-wine-1.png" alt="chateau" class="pull-left product-thumb"/></a>
 														<h4 class="nomargin">Chardonnay 2013</h4>
 														<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
 													</div>
@@ -133,7 +133,7 @@
 											<td><a href="#" class="btn btn-default"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
 											<td colspan="2" class="hidden-xs"></td>
 											<td class="hidden-xs text-center"><strong>Total $99.85</strong></td>
-											<td><a href="login.html" class="btn btn-primary btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+											<td><a href="login.php" class="btn btn-primary btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
 										</tr>
 									</tfoot>
 								</table>

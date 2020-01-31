@@ -73,7 +73,7 @@
 							<div class="col-sm-12">
 								<ol class="breadcrumb">
 									<li>
-										<a href="index-2.html">Home</a>
+										<a href="index-2.php">Home</a>
 									</li>
 									<li class="active">Blog
 									</li>
@@ -117,7 +117,7 @@
 								<div class="blog-grid-entry cat-news cat-visits cat-tastings">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x400.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x400.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -127,7 +127,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -136,7 +136,7 @@
 								<div class="blog-grid-entry cat-events cat-visits">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x300.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x300.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -146,7 +146,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -156,7 +156,7 @@
 								<div class="blog-grid-entry cat-events cat-tastings">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x500.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x500.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -166,7 +166,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -176,7 +176,7 @@
 								<div class="blog-grid-entry cat-news cat-tastings">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x500-3.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x500-3.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -186,7 +186,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -196,7 +196,7 @@
 								<div class="blog-grid-entry cat-reviews cat-visits">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x200.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x200.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -206,7 +206,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -216,7 +216,7 @@
 								<div class="blog-grid-entry cat-reviews cat-events">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x200-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x200-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -226,7 +226,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -236,7 +236,7 @@
 								<div class="blog-grid-entry cat-news cat-reviews">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x500-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x500-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -246,7 +246,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -256,7 +256,7 @@
 								<div class="blog-grid-entry cat-reviews cat-visits cat-tastings">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x400-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x400-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -266,7 +266,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -276,7 +276,7 @@
 								<div class="blog-grid-entry cat-news cat-events">
 									<article class="entry">
 										<figure class="box-1">
-											<a href="blog-entry.html"><img alt="chateau" class="img-responsive" src="images/blog-400x300-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.html"></a>
+											<a href="blog-entry.php"><img alt="chateau" class="img-responsive" src="images/blog-400x300-2.jpg"></a> <a class="icn-appear fa fa-ellipsis-h" href="blog-entry.php"></a>
 										</figure>
 				
 										<div class="entry-preview clearfix">
@@ -286,7 +286,7 @@
 				
 											<h2><a href="#">Lorem ipsum dolor sit amet consectetur</a></h2>
 				
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.html">Read more</a></p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry.php">Read more</a></p>
 										</div>
 									</article>
 								</div>
@@ -340,19 +340,19 @@
 									<li class="list-group-item style-1 list-group-label">Products
 									</li>
 									<li class="list-group-item style-1">
-										<a href="products.html#filter=*">All Products</a>
+										<a href="products.php#filter=*">All Products</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="products.html#filter=.red-wines">Red Wines</a>
+										<a href="products.php#filter=.red-wines">Red Wines</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="products.html#filter=.white-wines">White Wines</a>
+										<a href="products.php#filter=.white-wines">White Wines</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="products.html#filter=.rose-wines">Rosé Wines</a>
+										<a href="products.php#filter=.rose-wines">Rosé Wines</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="products.html#filter=.food-specialties">Food Specialties</a>
+										<a href="products.php#filter=.food-specialties">Food Specialties</a>
 									</li>
 								</ul>
 							</div>
@@ -361,16 +361,16 @@
 									<li class="list-group-item style-1 list-group-label">About
 									</li>
 									<li class="list-group-item style-1">
-										<a href="who-we-are.html">Who we are</a>
+										<a href="who-we-are.php">Who we are</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="our-history.html">Our History</a>
+										<a href="our-history.php">Our History</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="the-vineyard.html">The Vineyard</a>
+										<a href="the-vineyard.php">The Vineyard</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="gallery.html">Gallery</a>
+										<a href="gallery.php">Gallery</a>
 									</li>
 								</ul>
 							</div>
@@ -379,16 +379,16 @@
 									<li class="list-group-item style-1 list-group-label">Clients
 									</li>
 									<li class="list-group-item style-1">
-										<a href="register.html">Register</a>
+										<a href="register.php">Register</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="login.html">Login</a>
+										<a href="login.php">Login</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="contact.html">Contact</a>
+										<a href="contact.php">Contact</a>
 									</li>
 									<li class="list-group-item style-1">
-										<a href="faq.html">FAQ</a>
+										<a href="faq.php">FAQ</a>
 									</li>
 								</ul>
 							</div>
@@ -397,7 +397,7 @@
 									<li class="list-group-item style-1 list-group-label">Services
 									</li>
 									<li class="list-group-item style-1">
-										<a href="buy-online.html">Buy Online <span class="badge">New!</span></a>
+										<a href="buy-online.php">Buy Online <span class="badge">New!</span></a>
 									</li>
 									<li class="list-group-item style-1">
 										<a href="#">Blog</a>

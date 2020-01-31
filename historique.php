@@ -76,7 +76,7 @@
 			            <div class="row">
 			            	<div class="col-sm-12">
 								<ol class="breadcrumb">
-								  <li><a href="index.html">Accueil</a></li>
+								  <li><a href="index.php">Accueil</a></li>
 								  <li><a href="#">Présentation</a></li>
 								  <li class="active">Historique</li>
 								</ol>
@@ -91,11 +91,11 @@
 				<nav id="secondary-nav-bar" class="navbar navbar-default">
                   <div class="container">
                     <ul id="secondary-nav" class="nav navbar-nav">
-                        <li><a href="qui-somme-nous.html"  style="font-weight: bold;">Qui somme nous</a></li>
-                        <li class="active"><a href="historique.html"  style="font-weight: bold;">Historique</a></li>
+                        <li><a href="qui-somme-nous.php"  style="font-weight: bold;">Qui somme nous</a></li>
+                        <li class="active"><a href="historique.php"  style="font-weight: bold;">Historique</a></li>
                         
-                        <li><a href="le-saviez-vous.html"  style="font-weight: bold;">Le saviez vous</a></li>
-                        <li><a href="gallery.html"  style="font-weight: bold;">Galerie</a></li>
+                        <li><a href="le-saviez-vous.php"  style="font-weight: bold;">Le saviez vous</a></li>
+                        <li><a href="gallery.php"  style="font-weight: bold;">Galerie</a></li>
                     </ul>
                   </div>
                 </nav>

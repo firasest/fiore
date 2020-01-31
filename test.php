@@ -64,7 +64,7 @@
     <div id="block-gd-core-good-deals" class="block block-gd-core first odd">
 
       
-  <a href="les-petits-plus-rians.html">Accueil</a>
+  <a href="les-petits-plus-rians.php">Accueil</a>
   <img src="images/sep.png" class="imgSep">
 </div>
 
@@ -72,7 +72,7 @@
 <div id="block-gd-core-rians-newsletter" class="block block-gd-core even">
 
       
-  <a href="les-petits-plus-rians.html#newsletter">RECETTE</a>
+  <a href="les-petits-plus-rians.php#newsletter">RECETTE</a>
 	<img src="images/sep.png" class="imgSep">
 </div>
 
@@ -81,7 +81,7 @@
 <div id="block-gd-core-rians-answers" class="block block-gd-core odd">
 
       
-  <a href="rians-vous-ecoute.html">GRATIN BASTARDO</a>
+  <a href="rians-vous-ecoute.php">GRATIN BASTARDO</a>
   <!--<img src="images/sep.png" class="imgSep">-->
 </div>
 

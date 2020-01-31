@@ -315,9 +315,9 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12 descSlider">
-                                                <a href="qui-somme-nous.html">
+                                                <a href="qui-somme-nous.php">
                                                 <div class="col-sm-5 titleSlider">
-                                                    <a href="qui-somme-nous.html" style="text-decoration: none;"><h1 class="color-light titleSl" data-animation="animated bounceInUp">
+                                                    <a href="qui-somme-nous.php" style="text-decoration: none;"><h1 class="color-light titleSl" data-animation="animated bounceInUp">
                                                     Fiore Fromage<br>
                                                     
                                                     </h1></a>
@@ -337,7 +337,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12 descSlider">
-                                                <a href="products.html#filter=.pate-fraiche">
+                                                <a href="products.php#filter=.pate-fraiche">
                                                 <div class="col-sm-5 titleSlider">
                                                     <h1 class="color-light titleSl" data-animation="animated bounceInUp">
                                                     Pâte fraîche<br>
@@ -357,7 +357,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12 descSlider">
-                                                <a href="products.html#filter=*">
+                                                <a href="products.php#filter=*">
                                                 <div class="col-sm-5 titleSlider">
                                                     <h1 class="color-light titleSl" data-animation="animated bounceInUp">
                                                     Nos fromages<br>
@@ -377,7 +377,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-12 descSlider">
-                                                <a href="products.html#filter=.pate-molle">
+                                                <a href="products.php#filter=.pate-molle">
                                                 <div class="col-sm-5 titleSlider">
                                                     <h1 class="color-light titleSl" data-animation="animated bounceInUp">
                                                     Pâte molle<br>
@@ -441,7 +441,7 @@
                         <div class="row">
 
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-presse">
+                                <a href="products.php#filter=.pate-presse">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
@@ -457,7 +457,7 @@
                             </div>
 
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-molle">
+                                <a href="products.php#filter=.pate-molle">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
@@ -472,7 +472,7 @@
                             </div>
 
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.a-base-alimentaire">
+                                <a href="products.php#filter=.a-base-alimentaire">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
@@ -487,7 +487,7 @@
                             </div>
 
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.rape">
+                                <a href="products.php#filter=.rape">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
@@ -502,7 +502,7 @@
                             </div>
 
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-fraiche">
+                                <a href="products.php#filter=.pate-fraiche">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
@@ -516,7 +516,7 @@
                             </a>
                             </div>
                             <div class="col-sm-4 col-xs-12 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-                                <a href="products.html#filter=.pate-file">
+                                <a href="products.php#filter=.pate-file">
                                 <figure class="box-1 img-thumbnail mar-v">
                                     <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">

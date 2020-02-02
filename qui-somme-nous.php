@@ -1,3 +1,8 @@
+<?php
+include("includes/connect_db.php");
+$req = $bdd->query("SELECT * FROM quisommenous");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -143,14 +148,9 @@
                             </div>
 
                             <div class="col-sm-8" style="margin-top: -40px;">
-                                <h2 style="font-weight: bold;color: #ce2b37;">Qui somme nous</h2>
+                                <h2 style="font-weight: bold;color: #ce2b37;"><?php echo $donnees['titre']; ?></h2>
                                 <p style="text-align: justify;" id="quisommenousP">
-                                    La société Fiore suarl a adopté une démarche qualité qui place le client au centre de ses préoccupations et vise à lui offrir un fromage sain et authentique. <br><br>
-
-                                    Au travers de cet Engagement Qualité, Fiore s’engage à offrir à ses consommateurs des fromages de grande qualité choisis parmi plus de 450 types de fromages italiens, notamment ceux qui sont nés dans les belles vallées montagneuses et verdoyantes du nord de l’Italie, la Vallée d’Aoste, le Piémont, la Lombardie, le Frioul…<br><br>
-
-                                    A l’image du fromage italien, le fromage Fiore est né dans une des plus belles régions de la Tunisie: le cap bon, un jardin au dessus de la mer. Et chez Fiore comme en Italie, le maître fromager fait son fromage tous les jours (puisque le fromage Fiore se fait et ne se fabrique pas) à partir d’ingrédients naturels : un lait provenant d’élevages traditionnels où les vaches sont nourries sans ensilages dans des prairies fertiles où la diversité de la végétation parfume ce lait d’arômes délicats. <br>D'ajoutent aussi l’art et le savoir-faire Fiore, enfin, pour son accomplissement le fromage Fiore est confié aux rythmes du temps avec patience et passion…
-                                </p>
+                                    <?php echo $donnees['description'] ?>
                                 <!--<img alt="chateau" height="103" src="images/signature.png" width="202">-->
                             </div>
                         </div>

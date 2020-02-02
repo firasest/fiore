@@ -102,19 +102,36 @@
 	                <div class="container">
 	                    <div class="row">
 		                    <div class="col-sm-5">
-								<form>
+                       
+								<form action="Controller/AjoutContact.php" method="post">
+                     <?php 
+                      if (isset($_GET['resultat'])) {
+
+                       if ($_GET['resultat'] == 'oui') {
+                      ?>
+
+                          <br><div class="container"><div class="alert alert-success alert-dismissible">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    
+                                    Message ajouter avec succes.
+                                    </div></div>
+
+                          <?php  }else{ ?>
+                            <div class="container"></div>
+                          <?php } 
+                            }?>
 									<h2 style="font-weight: bold;color: #ce2b37;">Contactez-nous</h2>
 									<div class="form-group">
 									    <label for="msg-email">Addresse email</label>
-									    <input type="email" class="form-control" id="msg-email" placeholder="Email">
+									    <input type="email" class="form-control" id="msg-email" placeholder="Email" name="email">
 									</div>
 									<div class="form-group">
 									    <label for="msg-email">Objet</label>
-    										<input type="text" class="form-control" id="msg-email" placeholder="Objet">
+    										<input type="text" class="form-control" id="msg-email" placeholder="Objet" name="objet">
 									</div>
 									<div class="form-group">
 									    <label for="msg-text">Message</label>
-									    <textarea rows="6" class="form-control" id="msg-text" placeholder="Message"></textarea>
+									    <textarea rows="6" class="form-control" id="msg-text" placeholder="Message" name="message"></textarea>
 									</div>
 									
 									<button class="btn btn-primary btn-lg btn-animated btn-style-1" type="submit">

@@ -206,7 +206,7 @@
                     	</section><!-- /#product-sheet-->
 
                     </div>
-                </div>
+                </div>k
 
                 <?php include("includes/footer.php") ?>
 

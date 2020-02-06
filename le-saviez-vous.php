@@ -1,3 +1,8 @@
+<?php
+include("includes/connect_db.php");
+$req = $bdd->query("SELECT * FROM savez_vous");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -132,18 +137,19 @@
 		                        </div>-->
 		
 		                        <div class="row">
-		                        
+		                        <?php while($donnees = $req->fetch()){ ?>
 		                            <div class="col-sm-4 pad-v">
 		                            	<figure class="box-3">
 		                            	<figcaption><span class="fa fa-heart"></span></figcaption>
-		                            	<img class="img-responsive img-thumbnail" src="images/sv/001.png" width="1200" height="800" alt="001">
+		                            	<img class="img-responsive img-thumbnail" src="<?php echo $donnees['img'];?>" width="1200" height="800" alt="<?php echo $donnees['titre'];?>">
 		                            	</figure>
-		                                <center><h3 style="color: #CE2B37;">Comment conserver son fromage ? </h3></center>
-		                                <p style="text-align: justify;">La meilleure façon de conserver un fromage et de parfaire son affinage, est de le conserver dans une cave fraîche, sombre, aérée et légerement humide. Si l'on ne dispose pas d'un tel endroit, on peut tout a fait conserver les fromages dans le tiroir a légumes au bas du réfrigérateur, mais en prenant quelques précautions : Laissez les fromages dans leur emballage d'origine, et enveloppez-les avec du film alimentaire, afin qu'ils n'absorbent pas les odeurs. Vous pouvez placer, dans le tiroir a fromages, une branche de thym ou de laurier, qui masquera un peu l'odeur des fromages forts. Avant de les emballer, il faut toujours prendre le temps d'essuyer les fromages a pâte ferme ou semi-ferme, avec un papier absorbant, afin de freiner le développement de la moisissure. Sortez votre fromage du réfrigérateur une heure avant de le déguster. Savourez-le sans la croute avec un bon pain blanc levé et croustillant et pourquoi pas des fruits (figues, poires, raisins, melons.).
+		                                <center><h3 style="color: #CE2B37;"><?php echo $donnees['titre']; ?> </h3></center>
+		                                <p style="text-align: justify;"><?php echo $donnees['description']; ?>
 		                                </p>
 		                            </div>
+									<?php } ?>
 		                          
-		                            <div class="col-sm-4 pad-v">
+		                       <!--     <div class="col-sm-4 pad-v">
 		                            	<figure class="box-3">
 		                            	<figcaption><span class="fa fa-heart"></span></figcaption>
 		                            	<img class="img-responsive img-thumbnail" src="images/sv/002.png" width="1200" height="800" alt="002">
@@ -164,7 +170,7 @@
 
                                         "Cette leçon vaut bien un fromage sans doute." Jean de La Fontaine.
 		                                </p>
-		                            </div>
+		                            </div>-->
 		                            
 		                        </div>
 		                        

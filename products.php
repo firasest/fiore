@@ -1,3 +1,9 @@
+<?php
+include("includes/connect_db.php");
+
+$req = $bdd->query("SELECT * FROM produit ");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -266,22 +272,21 @@
 										<div class="isotope-grid-sizer"></div>
 
 										
-									
-                                            
-                                        <div class="isotope-grid-item a-base-alimentaire">
+	<?php while($donnees = $req->fetch()){ ?>
+						<div class="isotope-grid-item a-base-alimentaire">
                                             <article class="produit teaser">
                                                 <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
                                                 <span class="product-newVert new-fr">Préparation alimentaire</span>
 
     											<div class="b-alimentaire">
-    												<h3><a href="rape-primo-gruyere.php">RAPE PRIMO GRUYERE</a></h3>
-    												<h4><a href="rape-primo-gruyere.php">100G</a></h4>
+    												<h3><a href="produit2.php"><?php echo $donnees['titre']; ?></a></h3>
+    												<h4><a href="produit2.php"><?php echo $donnees['poids']; ?></a></h4>
     											</div>
-    											<a href="rape-primo-gruyere.php"><img class="lazy" data-src="images/a-base-alimentaire/Fiorella Râpé Primo gruyere1.png" class="lazy" alt="Fiorella Râpé Primo gruyere" width="300" height="600"></a>
+    											<a href="produit2.php"><img class="lazy" data-src="<?php echo $donnees['img'];?>" class="lazy" alt="Fiorella Râpé Primo gruyere" width="300" height="600"></a>
     										
                                             </article> 
-                                        </div>
-
+                                        </div> 
+	<?php } ?>
 
                                         <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">

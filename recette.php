@@ -1,9 +1,14 @@
+<?php
+include("includes/connect_db.php");
+$req = $bdd->query("SELECT * FROM recette");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
 <!-- Mirrored from www.directdesign.it/demos/chateau/blog-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Mar 2018 10:21:49 GMT -->
 <head>
-        <title>recette-1</title>
+        <title>recette</title>
         
         <!-- meta -->
         <meta charset="utf-8">

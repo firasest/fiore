@@ -1,3 +1,8 @@
+<?php
+include("includes/connect_db.php");
+$req = $bdd->query("SELECT * FROM contact_cord");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -146,11 +151,11 @@
  								<h2 style="font-weight: bold;color: #ce2b37;">Visitez-nous</h2>
  								<h3>Adresse</h3>
   		                    	<p>
-   		                    	<span class="fa fa-map-marker primary bigger" style="font-size: 28px;"></span> Fromagerie Fiore Km 1 Route d'Azmour 8080 Menzel Temime. Tunisie 
+   		                    	<span class="fa fa-map-marker primary bigger" style="font-size: 28px;"></span> <?php echo $donnees['adresse']; ?>
    		                    	</p>
  								<h3>Email</h3>
   		                    	<p>
-   		                    	<span class="fa fa-envelope primary bigger"></span> <a href="mailto:info@fiorefromage.com">info@fiorefromage.com</a>
+   		                    	<span class="fa fa-envelope primary bigger"></span> <a href="mailto:info@fiorefromage.com"><?php echo $donnees['email']; ?></a>
    		                    	</p>
                 <h3>Tel</h3>
                             <p>
@@ -164,9 +169,8 @@
                               <div class="col-sm-10">
 
                                 <div class="row" id="tels">
-                                    <div class="col-sm-12"><p>(+216)72.348.810</p></div>
-                                    <div class="col-sm-12"><p>(+216)72.348.811</p></div>
-                                    <div class="col-sm-12"><p>(+216)72.348.812</p></div>
+                                    <div class="col-sm-12"><p><?php echo $donnees['tel']; ?></p></div>
+                                    
                                 </div>
 
 
@@ -180,7 +184,7 @@
 
                 <h3>Fax</h3>
                             <p>
-                            <span class="fa fa-fax primary bigger"></span> (+216)72.348.813
+                            <span class="fa fa-fax primary bigger"></span> <?php echo $donnees['fax']; ?>
                             </p><br>
    		                    
   		                    	<!--<p>

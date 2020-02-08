@@ -2,7 +2,7 @@
 include("includes/connect_db.php");
 
 $req = $bdd->query("SELECT * FROM produit ");
-$donnees = $req->fetch();
+//$donnees = $req->fetch();
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -276,316 +276,23 @@ $donnees = $req->fetch();
 						<div class="isotope-grid-item a-base-alimentaire">
                                             <article class="produit teaser">
                                                 <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
+                                                <span class="product-newVert new-fr"><?php echo $donnees['catagorie']; ?></span>
 
     											<div class="b-alimentaire">
     												<h3><a href="produit2.php"><?php echo $donnees['titre']; ?></a></h3>
     												<h4><a href="produit2.php"><?php echo $donnees['poids']; ?></a></h4>
     											</div>
-    											<a href="produit2.php"><img class="lazy" data-src="<?php echo $donnees['img'];?>" class="lazy" alt="Fiorella Râpé Primo gruyere" width="300" height="600"></a>
+    											<a href="produit-details.php?id=<?php echo $donnees['id']; ?>"><img class="lazy" data-src="<?php echo $donnees['img'];?>" class="lazy" alt="Fiorella Râpé Primo gruyere" width="300" height="600"></a>
     										
                                             </article> 
                                         </div> 
 	<?php } ?>
 
-                                        <div class="isotope-grid-item pate-presse">
+
+
+							<!--			<div class="isotope-grid-item pate-fraiche">
                                             <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newMaron new-fr">Pâte pressé</span>
-        										
-        											
-        											<div class="p-presse">
-        												<h3><a href="vecchio-bastardo-porition.php">VECCHIO BASTARDO</a></h3>
-        												<h4><a href="vecchio-bastardo-porition.php">PORTION</a></h4>
-        											</div>
-                                                    <a href="vecchio-bastardo-porition.php"><img class="lazy" data-src="images/presse/VECCHIO-BASTARDO-DI-FIORE-copie.png" class="lazy" alt="VECCHIO BASTARDO DI FIORE" width="300" height="600"></a>
-        									</article>
-                                        </div>
-                                        
-
-
-
-										<div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-
-											<a href="rape-primo-mozzarella.php"><img class="lazy" data-src="images/a-base-alimentaire/Fiorella-Râpé-Primo-mozzarella1.png
-                                            " class="lazy" alt="Fiorella-Râpé-Primo-mozzarella" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="rape-primo-mozzarella.php">RAPE PRIMO MOZARELLA</a></h3>
-												<h4><a href="rape-primo-mozzarella.php">100G</a></h4>
-											</div>
-                                            </article>
-										</div>
-
-
-										<div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-											<a href="rape-dolce.php"><img class="lazy" data-src="images/a-base-alimentaire/Râpé dolce  fiorella 1 kg1.png" class="lazy" alt="Râpé dolce  fiorella 1 kg" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="rape-dolce.php">RAPE DOLCE</a></h3>
-												<h4><a href="rape-dolce.php">1KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										 <div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newMaron new-fr">Pâte pressé</span>
-
-    											<a href="gran-bastardo-portion.php"><img class="lazy" data-src="images/presse/GRAN BASTARDO DI FIORE1.png" class="lazy" alt="GRAN BASTARDO DI FIORE" width="300" height="600"></a>
-    											<div class="p-presse">
-    												<h3><a href="gran-bastardo-portion.php">GRAN BASTARDO</a></h3>
-    												<h4><a href="gran-bastardo-portion.php">PORTION</a></h4>
-    											</div>
-                                            </article>
-										</div>
-
-
-
-
-										<div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-											<a href="rape-primi-gruyere-1kg.php"><img class="lazy" data-src="images/a-base-alimentaire/Râpé Gruyhere  fiorella 1 kg1.png" class="lazy" alt="Râpé Gruyhere  fiorella 1 kg" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="rape-primi-gruyere-1kg.php">RAPE PRIMO GRUYERE</a></h3>
-												<h4><a href="rape-primi-gruyere-1kg.php">1KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										<div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-											<a href="rape-salato.php"><img class="lazy" data-src="images/a-base-alimentaire/Râpé salato fiorella 1 kg1.png" class="lazy" alt="Râpé salato fiorella 1 kg" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="rape-salato.php">RAPE SALATO</a></h3>
-												<h4><a href="rape-salato.php">1KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-
-
-
-
-
-										<div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newMaron new-fr">Pâte pressé</span>
-											<a href="bastardo-di-fiore-olive.php"><img class="lazy" data-src="images/presse/IL-BASTARDO-DI-FIORE1.png" class="lazy" alt="IL BASTARDO DI FIORE" width="300" height="600"></a>
-											<div class="p-presse">
-												<h3><a href="bastardo-di-fiore-olive.php">BASTARDO DO FIORE+OLIVES</a></h3>
-												<h4><a href="bastardo-di-fiore-olive.php">PORTION</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										
-                                        <div class="isotope-grid-item rape">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newBlanc new-fr">Fromage râpé</span>
-
-
-
-											<a href="fromage-rape-150g.php"><img class="lazy" data-src="images/rape/FROMAGE-RÄPE-DI-FIORE-150G1.png" class="lazy" alt="FROMAGE RÄPE DI FIORE 150G" width="300" height="600"></a>
-											<div class="p-rape">
-												<h3><a href="fromage-rape-150g.php">Fromage râpé DI FIORE</a></h3>
-												<h4><a href="fromage-rape-150g.php">150G</a></h4>
-											</div>
-                                        </article>
-										</div>
-                                        
-                                        
-                                        <div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-											<a href="barbarossa-edam.php"><img class="lazy" data-src="images/a-base-alimentaire/Edam-Barbarossa1.png" class="lazy" alt="Edam Barbarossa" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="barbarossa-edam.php">BARBAROSSA EDAM</a></h3>
-												<h4><a href="barbarossa-edam.php">POIDS MOYEN = 2KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-                                        
-                                        <div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-											<a href="girasole-gouda.php"><img class="lazy" data-src="images/a-base-alimentaire/Gouda. Girasole1.png" class="lazy" alt="Gouda Girasole" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="girasole-gouda.php">GIRASOLE GOUDA</a></h3>
-												<h4><a href="girasole-gouda.php">POIDS MOYEN = 2KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-										
-                                            <div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newMaron new-fr">Pâte pressé</span>
-											<a href="bastardo-di-fiore-olive-harissa.php"><img class="lazy" data-src="images/presse/IL-BASTARDO-DI-FIORE-OLIVE&HARISSA -1.png" class="lazy" alt="IL BASTARDO DI FIORE OLIVE & HARISSA" width="300" height="600"></a>
-											<div class="p-presse">
-												<h3><a href="bastardo-di-fiore-olive-harissa.php">BASTARDO DI FIORE+HARRISSA+OLIVES</a></h3>
-												<h4><a href="bastardo-di-fiore-olive-harissa.php"> PORTION</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										 <div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newMaron new-fr">Pâte pressé</span>
-
-											<a href="vecchio-bastardo-di-fiore-parmegiano-reggiano.php"><img class="lazy" data-src="images/presse/IL-VECCHIO-BASTARDO1.png" class="lazy" alt="IL VECCHIO BASTARDO" width="300" height="600"></a>
-											<div class="p-presse">
-												<h3><a href="vecchio-bastardo-di-fiore-parmegiano-reggiano.php">VECCHIO BASTARDO DI FIORE</a></h3>
-												<h4><a href="vecchio-bastardo-di-fiore-parmegiano-reggiano.php">POIDS MOYEN 5 KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-                                        
-                                        
-                                        <div class="isotope-grid-item a-base-alimentaire">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newVert new-fr">Préparation alimentaire</span>
-
-											<a href="pizzaparty-boyaux.php"><img class="lazy" data-src="images/a-base-alimentaire/Fiorella pizza party1.png" class="lazy" alt="Fiorella pizza party" width="300" height="600"></a>
-											<div class="b-alimentaire">
-												<h3><a href="pizzaparty-boyaux.php">PIZZA PARTY BOYAUX</a></h3>
-												<h4><a href="pizzaparty-boyaux.php">1.5KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-
-                                        <div class="isotope-grid-item pate-file">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newBleu new-fr">Pâte filé</span>
-
-
-											<a href="mozzarella-baccone.php"><img class="lazy" data-src="images/filee/MOZZARELLA-BOCCONE-DI-FIORE1.png" class="lazy" alt="MOZZARELLA BOCCONE DI FIORE" width="300" height="600"></a>
-											<div class="p-fl">
-												<h3><a href="mozzarella-baccone.php">MOZZARELLA BOCCONE</a></h3>
-												<h4><a href="mozzarella-baccone.php">125G</a></h4>
-											</div>
-										</div>
-
-                                        <div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newMaron new-fr">Pâte pressé</span>
-
-											<a href="primo-sale-di-fiore.php"><img class="lazy" data-src="images/presse/primo-sale-di-fiore1.png" class="lazy" alt="primo sale di fiore" width="300" height="600"></a>
-											<div class="p-presse">
-												<h3><a href="primo-sale-di-fiore.php">PRIMO SALE DI FIORE</a></h3>
-												<h4><a href="primo-sale-di-fiore.php">POIDS MOYEN 6KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										
-                                         <div class="isotope-grid-item pate-fraiche">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newRz new-fr">Pâte fraiche</span>
-											<a href="ricotta-frecsa-doppia-panna-pls.php"><img class="lazy" data-src="images/fraiche/ricotta-fresca1.png" class="lazy" alt="ricotta fresca" width="300" height="600"></a>
-											<div class="p-fr">
-												<h3><a href="ricotta-frecsa-doppia-panna-pls.php">RICOTTA FRESCA</a></h3>
-												<h4><a href="ricotta-frecsa-doppia-panna-pls.php">DOPPIA PANNA PLS</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-
-
-										<div class="isotope-grid-item rape">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newBlanc new-fr">Fromage râpé</span>
-
-											<a href="fromage-rape-340g.php"><img class="lazy" data-src="images/rape/râpé-mix-fiore-340-gr1.png" class="lazy" alt="râpé mix fiore 340 gr" width="300" height="600"></a>
-											<div class="p-rape">
-												<h3><a href="fromage-rape-340g.php">Fromage râpé DI FIORE</a></h3>
-												<h4><a href="fromage-rape-340g.php">340G</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-
-
-
-										<div class="isotope-grid-item pate-file">
-                                            <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                <span class="product-newBleu new-fr">Pâte filé</span>
-
-											<a href="mozzarella-bacconcini.php"><img class="lazy" data-src="images/filee/MOZZARELLA-BOCCONCINI1.png" class="lazy" alt="MOZZARELLA BOCCONCINI" width="300" height="600"></a>
-											<div class="p-fl">
-												<h3><a href="mozzarella-bacconcini.php">MOZZARELLA BOCCONCINI</a></h3>
-												<h4><a href="mozzarella-bacconcini.php">5X40g</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										<div class="isotope-grid-item pate-presse">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
-                                                    <span class="product-newMaron new-fr">Pâte pressé</span>
-											<a href="gran-bastardo-di-fiore-grana-padano.php"><img class="lazy" data-src="images/presse/IL-BRAN-BASTARDO1.png" class="lazy" alt="IL BRAN BASTARDO" width="300" height="600"></a>
-											<div class="p-presse">
-												<h3><a href="gran-bastardo-di-fiore-grana-padano.php">GRAN BASTARDO DI FIORE</a></h3>
-												<h4><a href="gran-bastardo-di-fiore-grana-padano.php">POIDS MOYEN 5KG</a></h4>
-											</div>
-                                        </article>
-										</div>
-
-
-
-										<div class="isotope-grid-item pate-fraiche">
-                                            <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newRz new-fr">Pâte fraiche</span>
 
 											<a href="bistecca-di-fiore.php"><img class="lazy" data-src="images/fraiche/LA-BISTECCA-DI-FIORE1.png" class="lazy" alt="LA BISTECCA DI FIORE" width="300" height="600"></a>
@@ -601,7 +308,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="caciotta-di-fiore.php"><img class="lazy" data-src="images/presse/CACIOTTA-DI-FIORE1.png" class="lazy" alt="CACIOTTA DI FIORE" width="300" height="600"></a>
@@ -616,7 +323,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                   
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 											<a href="bastardo-di-fiore.php"><img class="lazy" data-src="images/presse/Bastardo-Di-Fiore1.png" class="lazy" alt="Bastardo Di Fiore" width="300" height="600"></a>
 											<div class="p-presse">
@@ -631,7 +338,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-file">
                                             <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                              
                                                 <span class="product-newBleu new-fr">Pâte filé</span>
 											<a href="mozzarella-filone.php"><img class="lazy" data-src="images/filee/LA MOZZARELLA FILONE DI FIORE1.png" class="lazy" alt="LA MOZZARELLA FILONE DI FIORE" width="300" height="600"></a>
 											<div class="p-fl">
@@ -646,7 +353,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 											<a href="bastardo-di-fiore-olives.php"><img class="lazy" data-src="images/presse/IL-BASTARDO-DI-FIORE-OLIVE1.png" class="lazy" alt="IL BASTARDO DI FIORE OLIVE" width="300" height="600"></a>
 											<div class="p-presse">
@@ -661,7 +368,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                  
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 											<a href="bastardo-harissa-olives-2kg.php"><img class="lazy" data-src="images/presse/BASTARDO-DI-FIORE-+-OLIVE-&-HARISSA1.png" class="lazy" alt="BASTARDO DI FIORE + OLIVE & HARISSA" width="300" height="600"></a>
 											<div class="p-presse">
@@ -676,7 +383,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item rape">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                            
                                                     <span class="product-newBlanc new-fr">Fromage râpé</span>
 
 											<a href="fromage-rape-fiore1kg.php"><img class="lazy" data-src="images/rape/RAPE-FIORE-100-1.png" class="lazy" alt="RAPE FIORE 100" width="300" height="600"></a>
@@ -694,7 +401,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-fraiche">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                   
                                                     <span class="product-newRz new-fr">Pâte fraiche</span>
 
 											<a href="ricotta-fresca-doppia-panna.php"><img class="lazy" data-src="images/fraiche/RICOTTA-DOUBLE-CREME1.png" class="lazy" alt="RICOTTA DOUBLE CREME" width="300" height="600"></a>
@@ -709,7 +416,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                  
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 											<a href="bastardo-au-poivre.php"><img class="lazy" data-src="images/presse/bastardo-au-poivre1.png" class="lazy" alt="bastardo au poivre" width="300" height="600"></a>
 												<div class="p-presse">
@@ -727,7 +434,7 @@ $donnees = $req->fetch();
 									
                                         <div class="isotope-grid-item pate-molle">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                               
                                                     <span class="product-newRouge new-fr">Pâte molle</span>
 											<a href="saint-remo.php"><img class="lazy" data-src="images/molle/fiore-bianco-2.png" class="lazy" alt="fiore bianco" width="300" height="600"></a>
 											<div class="p-molle">
@@ -741,7 +448,7 @@ $donnees = $req->fetch();
 
                                          <div class="isotope-grid-item pate-molle">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newRouge new-fr">Pâte molle</span>
                                             <a href="foire-blanco.php"><img class="lazy" data-src="images/molle/Fiore-bianco-di-Fiore1.jpg" class="lazy" alt="fiore bianco" width="300" height="600"></a>
                                             <div class="p-molle">
@@ -756,7 +463,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="primo-sale-aux-poivres.php"><img class="lazy" data-src="images/presse/PRIMO-SALE-AUX-POIVRES1.png" class="lazy" alt="PRIMO SALE AUX POIVRES" width="300" height="600"></a>
@@ -775,7 +482,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-fraiche">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                 
                                                     <span class="product-newRz new-fr">Pâte fraiche</span>
 
 											<a href="staracchino-id-fiore.php"><img class="lazy" data-src="images/fraiche/STRACCHINO-DI-FIORE-1.png" class="lazy" alt="STRACCHINO DI FIORE" width="300" height="600"></a>
@@ -792,7 +499,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 											<a href="cittadella.php"><img class="lazy" data-src="images/presse/cittadella1.png" class="lazy" alt="cittadella" width="300" height="600"></a>
 											<div class="p-presse">
@@ -807,7 +514,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="sicilien-aux-fines-herbes.php"><img class="lazy" data-src="images/presse/Sicilien-aux-fines-herbes.png" class="lazy" alt="Sicilien aux fines herbes" width="300" height="600"></a>
@@ -820,7 +527,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="sicilien-au-herbes-d'oignat.php"><img class="lazy" data-src="images/presse/Sicilien-au-herbes-d'oignat.png" class="lazy" alt="Sicilien au herbes d'oignat" width="300" height="600"></a>
@@ -837,7 +544,7 @@ $donnees = $req->fetch();
 
                                        <div class="isotope-grid-item a-base-alimentaire">
                                             <article class="produit teaser">
-                                                <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                               
                                                 <span class="product-newVert new-fr">Préparation alimentaire</span>
 
 											<a href="pizza-one.php"><img class="lazy" data-src="images/a-base-alimentaire/pizza-one-boyaux1.png" class="lazy" alt="pizza one boyaux" width="300" height="600"></a>
@@ -852,7 +559,7 @@ $donnees = $req->fetch();
 
 										<div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                   
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="sicilien-aux-tym.php"><img class="lazy" data-src="images/presse/Sicilien-aux-tym.png" class="lazy" alt="Sicilien aux tym" width="300" height="600"></a>
@@ -867,7 +574,7 @@ $donnees = $req->fetch();
                                         
                                         <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                 
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="sicilien-aux-persil.php"><img class="lazy" data-src="images/presse/Sicilien-aux-persil.png" class="lazy" alt="Sicilien aux persil" width="300" height="600"></a>
@@ -882,7 +589,7 @@ $donnees = $req->fetch();
 
                                         <div class="isotope-grid-item pate-presse">
                                             <article class="produit teaser">
-                                                    <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
+                                                    
                                                     <span class="product-newMaron new-fr">Pâte pressé</span>
 
 											<a href="sicilien-al'ail.php"><img class="lazy" data-src="images/presse/Sicilien-al'ail.png" class="lazy" alt="Sicilien al'ail" width="300" height="600"></a>
@@ -891,7 +598,7 @@ $donnees = $req->fetch();
 												<h4><a href="sicilien-al'ail.php">MOYEN 2KG</a></h4>
 											</div>
                                         </article>
-										</div>
+										</div>-->
 
 									</div><!-- /.isotope grid-->
 

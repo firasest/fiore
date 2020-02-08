@@ -1,9 +1,15 @@
+<?php
+include("includes/connect_db.php");
+$id= $_GET['id'];
+$req = $bdd->query("SELECT * FROM produit WHERE id=$id");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
 <!-- Mirrored from www.directdesign.it/demos/chateau/product-sheet.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Mar 2018 10:22:56 GMT -->
 <head>
-        <title>barbarossa edam</title>
+        <title>Produit</title>
         
         <!-- meta -->
         <meta charset="utf-8">
@@ -92,20 +98,20 @@
 	                                        
 	                    <section id="product-sheet" class="clearfix">
 							<div class="col-sm-4 col-sm-offset-1-">
-								<a href="images/a-base-alimentaire/Edam Barbarossa .png" class="img-product swipebox">
-									<img class="img-responsive" src="images/a-base-alimentaire/Edam Barbarossa .png" alt="Edam Barbarossa" width="300" height="600">
+								<a href="<?php echo $donnees['img']; ?>" class="img-product swipebox">
+									<img class="img-responsive" src="<?php echo $donnees['img']; ?>" alt="Edam Barbarossa" width="300" height="600">
 								</a>
 							</div>
 							<div class="col-sm-8">
 								<ol class="breadcrumb">
                   <li><a href="index.php" style="text-transform: uppercase;">Accueil</a></li>
                   <li><a href="products.php" style="text-transform: uppercase;">Nos Fromages</a></li>
-                  <li class="active">BARBAROSSA EDAM</li>
+                  <li class="active"><?php echo $donnees['titre']; ?></li>
                 </ol>
-							<h1><span style="color:#1a761d">BARBA</span><span style="color:#fff5ee;text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;">ROSSA</span><span style="color:#CE2B37"> EDAM</span></h1>
+							<h1></h1>
 							<!--<h5>100G</h5>-->
 							<p>
-                            Barbarossa :  Préparation  aromatisé au fromage Edam.
+                            <?php echo $donnees['description']; ?>
 								
 							</p>
 							
@@ -130,11 +136,11 @@
           </thead>
           <tbody>
             <tr>
-              <td style="color: #fff"><center>Barbarossa edam </center></td>
-              <td style="color: #fff"><center>FA01F0402</center></td>
-              <td style="color: #fff"><center>2 kg</center></td>
-              <td style="color: #fff"><center>2407822XXXXXX</center></td>
-              <td style="color: #fff"><center>120 jours</center></td>
+              <td style="color: #fff"><center><?php echo $donnees['produit']; ?> </center></td>
+              <td style="color: #fff"><center><?php echo $donnees['code_produit']; ?></center></td>
+              <td style="color: #fff"><center><?php echo $donnees['poids']; ?></center></td>
+              <td style="color: #fff"><center><?php echo $donnees['code_ean']; ?></center></td>
+              <td style="color: #fff"><center><?php echo $donnees['dlc']; ?></center></td>
             </tr>
             
           </tbody>

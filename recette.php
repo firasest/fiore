@@ -8,7 +8,7 @@ $donnees = $req->fetch();
     
 <!-- Mirrored from www.directdesign.it/demos/chateau/blog-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Mar 2018 10:21:49 GMT -->
 <head>
-        <title>recette</title>
+        <title>recette-1</title>
         
         <!-- meta -->
         <meta charset="utf-8">
@@ -111,110 +111,33 @@ $donnees = $req->fetch();
 				<section id="blog">
 					<div class="container">
 						<div class="row">
-						
+						<?php while($donnees = $req->fetch()){ ?>		
 							<!-- content -->
 							<div class="col-sm-8">
 								<article class="entry" id="Bistecca-di-fiore-pannee">
 									<a href="BISTECCA-DI-FIORE-PANNEE.php">
 									<figure class="box-1">
-										<a href="BISTECCA-DI-FIORE-PANNEE.php" ><img alt="slider 1" class="img-responsive" src="images/slide-1.png"></a>
+										<a href="BISTECCA-DI-FIORE-PANNEE.php" ><img alt="slider 1" class="img-responsive" src="<?php echo $donnees['img']; ?>"></a>
 									</figure>
 									<div class="entry-preview clearfix">
-										<!--<div class="entry-date">
-											<span class="entry-day">21</span> <span class="entry-month">Jul</span>
-										</div><span class="entry-category">Wine News</span>-->
+										
 										<h2>
-											<a href="BISTECCA-DI-FIORE-PANNEE.php"> BISTECCA DI FIORE PANNÉE</a>
+											<a href="BISTECCA-DI-FIORE-PANNEE.php"> <?php echo $donnees['titre']; ?></a>
 										</h2>
-										<!--<p style="text-align: justify;">
-											<strong>Ingrédients</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">250g de Bistecca Di Fiore<br>
-											De la chapelure <br>
-											2 oufs.<br>
-
-											Sel et poivre du moulin <br>
-											Huile végétale pour la friture.<br></div>
-
-											<strong>Préparation</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">Coupez la Bistecca Di Fiore en tranche de 1cm.<br>
-											Coupez ensuite les tranches de Bistecca Di Fiore en batonnets de 1cm.<br>
-											Battez les oufs dans une assiette avec du sel et du poivre selon le gout.<br>
-											Répartissez la chapelure dans une autre assiette.<br>
-
-											Trempez chaque bâtonnet dans l'ouf puis égouttez pour faire tomber l'exces.<br>
-											Roulez dans la chapelure Refaites l'opération une deuxieme fois.<br>
-
-											Laissez sécher 2 minutes. Faites dorer dans l'huile chaude au fond de la poele a feu vif.<br>
-											Servez aussitôt avec une salade verte, une sauce tartare ou tout simplement du ketchup.<br></div>
-										</p>-->
+										
 									</div>
 								</a>
 								</article>
-								<article class="entry" id="tiramisu">
-									<a href="TIRAMISU.php">
-									<figure class="box-1">
-										<a href="TIRAMISU.php"><img alt="slider 2" class="img-responsive" src="images/slide-2.png"></a>
-									</figure>
-									<div class="entry-preview clearfix">
-										<!--<div class="entry-date">
-											<span class="entry-day">21</span> <span class="entry-month">Jul</span>
-										</div><span class="entry-category">Wine News</span>-->
-										<h2>
-											<a href="TIRAMISU.php">TIRAMISU</a>
-										</h2>
-										<!--<p style="text-align: justify;">
-											<strong>Ingrédients</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">500 g de Mascarpone Di Fiore<br> 
-																								5 oeufs<br>
-																								5 c. a s. de sucre en poudre. <br>
-
-																								500 g de biscuit langue de chat <br>
-																								300 ml de café tres fort<br>
-																								1 c. a soupe de cacao en poudre.</div>
-
-											<strong>Préparation</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">Fouetter les jaunes d'oeufs et le sucre jusqu'a ce que le mélange blanchisse.<br>
-
-																								Ajouter le mascarpone et mélanger délicatement. Monter les blancs d'oeufs en neige tres ferme et incorporer au mélange.<br>
-
-																								Tremper les biscuits langue de chat dans le café tres fort et tapisser un plat a gateau. <br>
-
-																								Recouvrir d'une couche de mascarpone; remettre un rang de biscuits langue de chat trempés dans le café et recouvrir d'une deuxieme couche de mascarpone.<br>
-
-																								Mettre au réfrigérateur pour au moins trois heures; servir froid, saupoudré de cacao en poudre.</div>
-										</p>-->
-									</div>
-								   </a>
-								</article>
-								<!--<article class="entry">
-									<figure class="box-1">
-										<a href="blog-entry-alternative.html"><img alt="chateau" class="img-responsive" src="images/slide-3.jpg"></a>
-									</figure>
-									<div class="entry-preview clearfix">
-										<div class="entry-date">
-											<span class="entry-day">7</span> <span class="entry-month">Jul</span>
-										</div><span class="entry-category">Wine Tastings</span>
-										<h2>
-											<a href="blog-entry-alternative.html">How to correctly taste white whine</a>
-										</h2>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est velit. Morbi consequat condimentum turpis, sed placerat lacus tempus sit amet. Nulla facilisi. <a class="primary" href="blog-entry-alternative.html">Read more</a>
-										</p>
-									</div>
-								</article>-->
+								
+								
 								
 								<nav class="text-center">
 								  <ul class="pagination-product pagination">
-								    <!--<li>
-								      <a href="#" aria-label="Previous">
-								        <span aria-hidden="true" class="fa fa-angle-left"></span>
-								      </a>
-								    </li>-->
+								   
 								    <li class="active"><a href="">1</a></li>
 								    <li><a href="recette-page-2.php">2</a></li>
 								    <li><a href="recette-page-3.php">3</a></li>
-								    <!--<li><a href="#">4</a></li>
-								    <li><a href="#">5</a></li>-->
+								    
 								    <li>
 								      <a href="recette-page-2.php" aria-label="Next">
 								        <span aria-hidden="true" class="fa fa-angle-right"></span>
@@ -223,6 +146,7 @@ $donnees = $req->fetch();
 								  </ul>
 								</nav>		
 							</div>
+							<?php } ?>
 							<!-- /content -->
 							
 							<!-- sidebar -->

@@ -1,7 +1,7 @@
 <?php
 include("includes/connect_db.php");
 $req = $bdd->query("SELECT * FROM savez_vous");
-$donnees = $req->fetch();
+//$donnees = $req->fetch();
  ?>
 <!DOCTYPE html>
 <html lang="en">

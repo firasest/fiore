@@ -1,7 +1,8 @@
 <?php
 include("includes/connect_db.php");
-$req = $bdd->query("SELECT * FROM recette");
-$donnees = $req->fetch();
+
+$req = $bdd->query("SELECT * FROM recette  ");
+//$donnees = $req->fetch();
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -111,25 +112,26 @@ $donnees = $req->fetch();
 				<section id="blog">
 					<div class="container">
 						<div class="row">
-						<?php while($donnees = $req->fetch()){ ?>		
+								
 							<!-- content -->
 							<div class="col-sm-8">
+								<?php while($donnees = $req->fetch()){ ?>
 								<article class="entry" id="Bistecca-di-fiore-pannee">
-									<a href="BISTECCA-DI-FIORE-PANNEE.php">
+								<a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>" >
 									<figure class="box-1">
-										<a href="BISTECCA-DI-FIORE-PANNEE.php" ><img alt="slider 1" class="img-responsive" src="<?php echo $donnees['img']; ?>"></a>
+										<a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>" ><img alt="slider 1" class="img-responsive" src="<?php echo $donnees['img']; ?>"></a>
 									</figure>
 									<div class="entry-preview clearfix">
 										
 										<h2>
-											<a href="BISTECCA-DI-FIORE-PANNEE.php"> <?php echo $donnees['titre']; ?></a>
+											<a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>"> <?php echo $donnees['titre']; ?></a>
 										</h2>
 										
 									</div>
 								</a>
 								</article>
 								
-								
+								<?php } ?>
 								
 								<nav class="text-center">
 								  <ul class="pagination-product pagination">
@@ -146,7 +148,7 @@ $donnees = $req->fetch();
 								  </ul>
 								</nav>		
 							</div>
-							<?php } ?>
+							
 							<!-- /content -->
 							
 							<!-- sidebar -->

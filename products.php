@@ -273,7 +273,7 @@ $req = $bdd->query("SELECT * FROM produit ");
 
 										
 	<?php while($donnees = $req->fetch()){ ?>
-						<div class="isotope-grid-item a-base-alimentaire">
+						<div class="isotope-grid-item <?php echo $donnees['catagorie2']; ?>">
                                             <article class="produit teaser">
                                                 <!--<img src="images/bg-product-teaser-new-vert.png" class="imgProduct">-->
                                                 <span class="product-newVert new-fr"><?php echo $donnees['catagorie']; ?></span>

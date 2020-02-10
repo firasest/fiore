@@ -1,3 +1,9 @@
+<?php
+include("includes/connect_db.php");
+$id= $_GET['id'];
+$req = $bdd->query("SELECT * FROM recette WHERE id=$id");
+$donnees = $req->fetch();
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     
@@ -201,35 +207,17 @@
 								<article class="entry" id="Bistecca-di-fiore-pannee">
 									<a href="#">
 									<figure class="box-1">
-										<a ><img alt="slide 1" class="img-responsive" src="images/slide-1.png"></a>
+										<a ><img alt="slide 1" class="img-responsive" src="<?php echo $donnees['img']; ?>"></a>
 									</figure>
 									<div class="entry-preview clearfix">
 										<!--<div class="entry-date">
 											<span class="entry-day">21</span> <span class="entry-month">Jul</span>
 										</div><span class="entry-category">Wine News</span>-->
 										<h2>
-											<a href="#"> BISTECCA DI FIORE PANNÉE</a>
+											<a href="#"> <?php echo $donnees['titre']; ?></a>
 										</h2>
 										<p style="text-align: justify;">
-											<strong>Ingrédients</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">250g de Bistecca Di Fiore<br>
-											De la chapelure <br>
-											2 oufs.<br>
-
-											Sel et poivre du moulin <br>
-											Huile végétale pour la friture.<br></div>
-
-											<strong>Préparation</strong><br>
-											<div style="margin-left: 50px;text-align: justify;">Coupez la Bistecca Di Fiore en tranche de 1cm.<br>
-											Coupez ensuite les tranches de Bistecca Di Fiore en batonnets de 1cm.<br>
-											Battez les oufs dans une assiette avec du sel et du poivre selon le gout.<br>
-											Répartissez la chapelure dans une autre assiette.<br>
-
-											Trempez chaque bâtonnet dans l'ouf puis égouttez pour faire tomber l'exces.<br>
-											Roulez dans la chapelure Refaites l'opération une deuxieme fois.<br>
-
-											Laissez sécher 2 minutes. Faites dorer dans l'huile chaude au fond de la poele a feu vif.<br>
-											Servez aussitôt avec une salade verte, une sauce tartare ou tout simplement du ketchup.<br></div>
+										<?php echo $donnees['description']; ?>
 										</p>
 									</div>
 								</a>

@@ -1,8 +1,19 @@
 <?php
 include("includes/connect_db.php");
+$rec=6;
 
-$req = $bdd->query("SELECT * FROM recette  ");
-//$donnees = $req->fetch();
+$recbyid= $bdd->query('SELECT * FROM recette');
+$rectotal = $recbyid->rowCount();
+$pagesTotales=ceil($rectotal/$recbyid);
+      if(isset($_GET['page']) AND !empty($_GET['page']) AND $_GET['page'] > 0 AND $_GET['page'] <= $pagesTotales) {
+	           $_GET['page'] = intval($_GET[page]);
+	           $pageCourante = $_GET['page'];
+	} else {
+	   $pageCourante = 1;
+	}
+	$depart = ($pageCourante-1)*$rec;
+/*$req = $bdd->query("SELECT * FROM recette  ");
+$donnees = $req->fetch();*/
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -115,7 +126,15 @@ $req = $bdd->query("SELECT * FROM recette  ");
 								
 							<!-- content -->
 							<div class="col-sm-8">
-								<?php while($donnees = $req->fetch()){ ?>
+								<?php 
+							
+							while($donnees = $req->fetch()){ ?>
+								
+
+
+
+
+
 								<article class="entry" id="Bistecca-di-fiore-pannee">
 								<a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>" >
 									<figure class="box-1">
@@ -133,12 +152,23 @@ $req = $bdd->query("SELECT * FROM recette  ");
 								
 								<?php } ?>
 								
+
+								<?php
+      for($i=1;$i<=$pagesTotales;$i++) {
+         if($i == $pageCourante) {
+            echo $i.' ';
+         } else {
+            echo '<a href="index.php?page='.$i.'">'.$i.'</a> ';
+         }
+      }
+      ?>
+								
 								<nav class="text-center">
 								  <ul class="pagination-product pagination">
 								   
 								    <li class="active"><a href="">1</a></li>
-								    <li><a href="recette-page-2.php">2</a></li>
-								    <li><a href="recette-page-3.php">3</a></li>
+								    <li><a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>">2</a></li>
+								    <li><a href="recettedetailes.php?id=<?php echo $donnees['id']; ?>">3</a></li>
 								    
 								    <li>
 								      <a href="recette-page-2.php" aria-label="Next">

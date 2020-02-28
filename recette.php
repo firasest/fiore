@@ -4,16 +4,16 @@ $rec=6;
 
 $recbyid= $bdd->query('SELECT * FROM recette');
 $rectotal = $recbyid->rowCount();
-$pagesTotales=ceil($rectotal/$recbyid);
+/*$pagesTotales=ceil($rectotal/$recbyid);
       if(isset($_GET['page']) AND !empty($_GET['page']) AND $_GET['page'] > 0 AND $_GET['page'] <= $pagesTotales) {
 	           $_GET['page'] = intval($_GET[page]);
 	           $pageCourante = $_GET['page'];
 	} else {
 	   $pageCourante = 1;
 	}
-	$depart = ($pageCourante-1)*$rec;
-/*$req = $bdd->query("SELECT * FROM recette  ");
-$donnees = $req->fetch();*/
+	$depart = ($pageCourante-1)*$rec;*/
+$req = $bdd->query("SELECT * FROM recette  ");
+/*$donnees = $req->fetch();*/
  ?>
 <!DOCTYPE html>
 <html lang="en">

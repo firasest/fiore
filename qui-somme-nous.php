@@ -144,7 +144,7 @@ $donnees = $req->fetch();
 
                         <div class="row">
                             <div class="col-sm-4">
-                                <img alt="qui somme nous" class="img-responsive img-thumbnail img-circle" src="<?php echo $donnees['img']; ?>">
+                                <img alt="qui somme nous" class="img-responsive img-thumbnail img-circle" src="images/wine-maker-working.png">
                             </div>
 
                             <div class="col-sm-8" style="margin-top: -40px;">
